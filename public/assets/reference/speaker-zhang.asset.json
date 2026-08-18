@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-17T14:00:10.156Z",
+  "kind": "photo",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/var/folders/5y/51hfcy4s6kb2jcy8_dsrmjth0000gn/T/codex-clipboard-41bbb29b-cc1b-468d-97fa-c04d6f94fd34.png",
+    "sha256": "sha256:c1579931d0095c17c8ebe6fdcbd2af62520942b2c7f3c87b158481a0eba2263e",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 309,
+    "y": 1180,
+    "width": 231,
+    "height": 162
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/reference/speaker-zhang.png",
+    "sha256": "sha256:19b34586f57a51f588a2740bfd5392ac769963bd46dfe9f40e2fbdcdaeb8aeda",
+    "pixelSize": {
+      "width": 231,
+      "height": 162
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

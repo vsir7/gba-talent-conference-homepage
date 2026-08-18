@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-17T14:00:30.789Z",
+  "kind": "illustration",
+  "role": "key-visual",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/var/folders/5y/51hfcy4s6kb2jcy8_dsrmjth0000gn/T/codex-clipboard-41bbb29b-cc1b-468d-97fa-c04d6f94fd34.png",
+    "sha256": "sha256:c1579931d0095c17c8ebe6fdcbd2af62520942b2c7f3c87b158481a0eba2263e",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 426,
+    "y": 54,
+    "width": 426,
+    "height": 260
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/reference/hero-key-visual.png",
+    "sha256": "sha256:e439d950e1aa7f746efc94a6750bb3f4207220a70bab443e1c31b3641bdd020f",
+    "pixelSize": {
+      "width": 426,
+      "height": 260
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}
