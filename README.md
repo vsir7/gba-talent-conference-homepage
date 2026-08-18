@@ -14,5 +14,9 @@
 - 页面入口：`index.html`
 - 页面样式：`styles.css`
 - 交互脚本：`app.js`
+- 入场服务页面：`entry-service.html`
+- 入场服务样式：`entry-service.css`
+- 入场服务交互：`entry-service.js`
 - 设计变量：`design-system/tokens/design-tokens.css`
 - 图片素材：`public/assets/reference/`
+- 入场服务素材：`public/assets/entry-service/`
