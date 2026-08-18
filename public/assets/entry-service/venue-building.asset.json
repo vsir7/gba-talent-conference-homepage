@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-18T14:50:07.604Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/var/folders/5y/51hfcy4s6kb2jcy8_dsrmjth0000gn/T/codex-clipboard-f0e5259e-8694-4b3e-9c1a-6197605de029.png",
+    "sha256": "sha256:910e3e54fab5e387dc19ad640a701129d6a7041830e232e6b8370dda634c7b28",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 62,
+    "y": 832,
+    "width": 225,
+    "height": 175
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/entry-service/venue-building.png",
+    "sha256": "sha256:a41cdf8f7d1352c03829eb1f15bd3d607561592f8a82906127e1068c3834d8b2",
+    "pixelSize": {
+      "width": 225,
+      "height": 175
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}
