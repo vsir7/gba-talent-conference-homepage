@@ -97,6 +97,20 @@ button[disabled]{cursor:not-allowed;opacity:var(--opacity-disabled)}
   .news-card{grid-template-columns:1fr}.news-card>img{max-height:180px}.news-card__content>small{margin-top:var(--space-8)}
 }
 
+@media (min-width:360px) and (max-width:413px){
+  .feature-entry-group{grid-template-columns:1fr;padding:var(--space-16)}
+  .feature-entry{display:grid;grid-template-columns:var(--component-hero-icon-min-size) 1fr var(--component-micro-action-visual-size);align-items:center;gap:var(--space-12);min-height:116px;padding:var(--space-16)}
+  .feature-entry__art{width:var(--component-hero-icon-min-size);height:var(--component-hero-icon-min-size)}
+  .feature-entry__copy{min-width:0;margin-top:0}
+  .feature-entry__arrow{position:static}
+  .agenda-card--upcoming{grid-template-columns:1fr}
+  .countdown{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"label action" "time action" "units action";align-items:center;column-gap:var(--space-16);width:100%;padding:var(--space-16) 0 0;border-top:1px solid var(--color-border-default);border-left:0}
+  .countdown>span{grid-area:label;justify-self:start}
+  .countdown strong{grid-area:time;justify-self:start}
+  .countdown small{grid-area:units;justify-self:start}
+  .countdown .button--reminder{grid-area:action;margin-top:0}
+}
+
 @media (min-width:414px){.page-container{padding-inline:var(--layout-gutter-wide)}.home-brand-hero{padding-inline:var(--layout-gutter-wide)}.feature-entry{min-height:184px}.guest-card div{padding:var(--space-16)}}
 
 @media (hover:hover) and (pointer:fine){.feature-entry:hover,.news-card:hover{transform:translateY(-2px)}.notice-bar:hover,.section-link-header button:hover{color:var(--color-brand-700)}}
