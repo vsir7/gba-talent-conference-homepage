@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-18T06:25:43.539Z",
+  "kind": "photo",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/var/folders/5y/51hfcy4s6kb2jcy8_dsrmjth0000gn/T/codex-clipboard-c08c0aef-cb53-4412-9770-e500931c793f.png",
+    "sha256": "sha256:ce0e616bca91856e31c617ebf4a77548f20913e01c38288a172947c9afb2f4a7",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 184,
+    "y": 741,
+    "width": 52,
+    "height": 52
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/schedule/speaker-zhang-wei.png",
+    "sha256": "sha256:c4949f8bfe1fec005cb4730dccc2cfa1ae7be3f59135f0c14473222723f0eb4a",
+    "pixelSize": {
+      "width": 52,
+      "height": 52
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

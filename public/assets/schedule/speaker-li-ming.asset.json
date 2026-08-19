@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-18T06:25:43.668Z",
+  "kind": "photo",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/var/folders/5y/51hfcy4s6kb2jcy8_dsrmjth0000gn/T/codex-clipboard-c08c0aef-cb53-4412-9770-e500931c793f.png",
+    "sha256": "sha256:ce0e616bca91856e31c617ebf4a77548f20913e01c38288a172947c9afb2f4a7",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 246,
+    "y": 741,
+    "width": 52,
+    "height": 52
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/schedule/speaker-li-ming.png",
+    "sha256": "sha256:973990a75ced317bcb690be4a36be9889daa2cce0c5a95524d86455f350619cf",
+    "pixelSize": {
+      "width": 52,
+      "height": 52
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}
