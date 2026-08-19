@@ -1,0 +1,8 @@
+{
+  "asset": "attendance-card.png",
+  "type": "atomic-raster-crop",
+  "source": "/var/folders/5y/51hfcy4s6kb2jcy8_dsrmjth0000gn/T/codex-clipboard-2b7d42ba-7f31-451c-9c82-2273dc81f17d.png",
+  "sourceSha256": "sha256:4b23453e25b2a4ac42af023a788bbbbab008b6a746e7c731c6da3cb54e6be175",
+  "crop": { "x": 420, "y": 470, "width": 340, "height": 300 },
+  "atomicAndRightsConfirmed": true
+}

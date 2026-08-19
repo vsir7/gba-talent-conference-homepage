@@ -14,10 +14,11 @@
 - `index.html`：大会首页
 - `schedule.html`：大会日程
 - `entry-service.html`：入场服务
+- `profile.html`：个人中心（固定 375px 画布）
 
 ## 主要文件
 
-- `styles.css`、`schedule.css`、`entry-service.css`：页面样式
-- `app.js`、`schedule.js`、`schedule-model.js`、`entry-service.js`：交互逻辑
+- `styles.css`、`schedule.css`、`entry-service.css`、`profile.css`：页面样式
+- `app.js`、`schedule.js`、`schedule-model.js`、`entry-service.js`、`profile.js`：交互逻辑
 - `design-system/tokens/`：设计变量
-- `public/assets/reference/`、`public/assets/schedule/`、`public/assets/entry-service/`：本地图片素材
+- `public/assets/reference/`、`public/assets/schedule/`、`public/assets/entry-service/`、`public/assets/profile/`：本地图片素材
