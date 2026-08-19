@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#F7F7FD" />
+  <meta name="color-scheme" content="light" />
+  <meta name="description" content="第四届粤港澳大湾区人才高质量发展大会日程" />
+  <title>大会日程｜第四届粤港澳大湾区人才高质量发展大会</title>
+  <link rel="stylesheet" href="schedule.css" />
+</head>
+<body>
+  <svg class="icon-defs" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 5h16l-6.5 7v6.5l-3 1V12z"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M20 15a4 4 0 0 1-4 4H8l-4 2 1.2-4A8 8 0 1 1 20 15Z"/><path d="M8 11h8"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></symbol>
+    <symbol id="i-keynote" viewBox="0 0 24 24"><path d="M3 10 12 4l9 6"/><path d="M5 9v10h14V9M9 13h6v6H9z"/></symbol>
+    <symbol id="i-lecture" viewBox="0 0 24 24"><rect x="5" y="3" width="13" height="16" rx="1.5"/><path d="m10 8 4 3-4 3ZM9 21h10a2 2 0 0 0 2-2V7"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 4h8v4a4 4 0 0 1-8 0zM10 12v3M14 12v3M8 20h8M10 15h4v5"/><path d="M8 6H4v2a4 4 0 0 0 4 4M16 6h4v2a4 4 0 0 1-4 4"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4M9 21h6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m21 3-7.5 18-3.2-7.3L3 10.5zM10.3 13.7 21 3"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v10H3zM9 21v-6h6v6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 14h3M13 14h3M8 18h3"/></symbol>
+    <symbol id="i-service" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+    <symbol id="i-profile" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  </svg>
+
+  <main class="schedule-shell" data-ui-ready="false">
+    <header class="schedule-header">
+      <div class="topbar">
+        <h1>日程</h1>
+        <div class="topbar__actions" aria-label="日程工具">
+          <button class="icon-button" type="button" data-search-toggle aria-label="搜索日程" aria-expanded="false" aria-controls="schedule-search"><svg><use href="#i-search"/></svg></button>
+          <button class="icon-button" type="button" data-filter-focus aria-label="筛选日程"><svg><use href="#i-filter"/></svg></button>
+          <button class="icon-button icon-button--notice" type="button" data-feature="消息中心" aria-label="消息中心，有新消息"><svg><use href="#i-message"/></svg><span aria-hidden="true"></span></button>
+        </div>
+      </div>
+
+      <div class="search-panel" id="schedule-search" hidden>
+        <label for="schedule-query">搜索日程</label>
+        <div class="search-field">
+          <svg aria-hidden="true"><use href="#i-search"/></svg>
+          <input id="schedule-query" type="search" autocomplete="off" placeholder="搜索活动、地点或嘉宾" />
+        </div>
+      </div>
+
+      <div class="date-tabs" role="tablist" aria-label="选择大会日期">
+        <button class="date-tab is-active" type="button" role="tab" aria-selected="true" data-day="2026-10-25"><strong>10月25日</strong><span>周六</span></button>
+        <button class="date-tab" type="button" role="tab" aria-selected="false" data-day="2026-10-26"><strong>10月26日</strong><span>周日</span></button>
+      </div>
+
+      <div class="scope-tabs" role="tablist" aria-label="日程范围">
+        <button class="scope-tab is-active" type="button" role="tab" aria-selected="true" data-scope="all">全部日程</button>
+        <button class="scope-tab" type="button" role="tab" aria-selected="false" data-scope="mine">我的日程</button>
+      </div>
+
+      <div class="category-strip" id="schedule-categories" role="group" aria-label="活动分类">
+        <button class="category-chip is-active" type="button" aria-pressed="true" data-category="all"><svg><use href="#i-grid"/></svg><span>全部</span></button>
+        <button class="category-chip" type="button" aria-pressed="false" data-category="keynote"><svg><use href="#i-keynote"/></svg><span>主论坛</span></button>
+        <button class="category-chip" type="button" aria-pressed="false" data-category="lecture"><svg><use href="#i-lecture"/></svg><span>讲堂</span></button>
+        <button class="category-chip" type="button" aria-pressed="false" data-category="competition"><svg><use href="#i-trophy"/></svg><span>创新大赛</span></button>
+        <button class="category-chip" type="button" aria-pressed="false" data-category="open-mic"><svg><use href="#i-mic"/></svg><span>开放麦</span></button>
+      </div>
+    </header>
+
+    <section class="timeline" id="agenda-list" aria-label="10月25日日程" aria-live="polite"></section>
+  </main>
+
+  <nav class="tab-bar" aria-label="主要导航">
+    <div class="tab-bar__content">
+      <a class="tab-bar__item" href="index.html"><svg><use href="#i-home"/></svg><span>大会</span></a>
+      <a class="tab-bar__item is-current" href="schedule.html" aria-current="page"><svg><use href="#i-calendar"/></svg><span>日程</span></a>
+      <button class="tab-bar__item tab-bar__item--assistant" type="button" data-feature="AI助手"><img src="public/assets/schedule/ai-assistant-orb.png" width="92" height="92" alt="" /><span>AI助手</span></button>
+      <button class="tab-bar__item" type="button" data-feature="服务"><svg><use href="#i-service"/></svg><span>服务</span></button>
+      <button class="tab-bar__item" type="button" data-feature="我的"><svg><use href="#i-profile"/></svg><span>我的</span></button>
+    </div>
+  </nav>
+
+  <dialog class="dialog" id="schedule-dialog" aria-labelledby="schedule-dialog-title">
+    <div class="dialog__panel">
+      <button class="dialog__close icon-button" type="button" data-dialog-close aria-label="关闭"><svg><use href="#i-close"/></svg></button>
+      <h2 id="schedule-dialog-title">提示</h2>
+      <p id="schedule-dialog-description"></p>
+      <div class="dialog__actions">
+        <button class="button button--secondary" type="button" data-copy-address hidden>复制地址</button>
+        <button class="button button--primary" type="button" data-dialog-close>知道了</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="snackbar" role="status" aria-live="polite" hidden><span></span></div>
+  <script type="module" src="schedule.js"></script>
+</body>
+</html>

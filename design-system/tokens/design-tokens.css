@@ -141,6 +141,7 @@
   --size-message-icon: 48px;
   --layout-viewport-reference: 390px;
   --layout-viewport-max: 480px;
+  --layout-wide-canvas: 750px;
   --layout-gutter: 16px;
   --layout-gutter-wide: 20px;
   --layout-card-gap: 12px;
