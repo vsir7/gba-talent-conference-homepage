@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#F5F4FF" />
+  <meta name="color-scheme" content="light" />
+  <meta name="description" content="第四届粤港澳大湾区人才高质量发展大会页面管理看板" />
+  <title>页面管理看板｜第四届粤港澳大湾区人才高质量发展大会</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%235740F2'/%3E%3Cpath d='M18 34l9 9 19-22' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="page-board.css" />
+</head>
+<body>
+  <main class="page-board" data-ui-ready="false">
+    <aside class="page-board__sidebar" aria-label="页面目录">
+      <a class="page-board__brand" href="index.html" aria-label="返回大会首页">
+        <span class="page-board__brand-mark" aria-hidden="true">湾</span>
+        <span><strong>大会页面管理</strong><small>GBA Talent Summit</small></span>
+      </a>
+      <div class="page-board__intro">
+        <p>页面目录</p>
+        <span>选择页面，即时在右侧查看真实内容</span>
+      </div>
+      <nav class="page-board__directory" id="page-directory" aria-label="页面目录">
+        <a class="page-board__item" data-page-id="home" href="index.html"><b>01</b><span><strong>大会首页</strong><small>大会信息与聚合入口</small></span><i aria-hidden="true">↗</i></a>
+        <a class="page-board__item" data-page-id="schedule" href="schedule.html"><b>02</b><span><strong>大会日程</strong><small>活动安排与关注状态</small></span><i aria-hidden="true">↗</i></a>
+        <a class="page-board__item" data-page-id="entry-service" href="entry-service.html"><b>03</b><span><strong>入场服务</strong><small>入场状态与现场指引</small></span><i aria-hidden="true">↗</i></a>
+        <a class="page-board__item" data-page-id="profile" href="profile.html"><b>04</b><span><strong>个人中心</strong><small>参会资料与个人服务</small></span><i aria-hidden="true">↗</i></a>
+      </nav>
+      <p class="page-board__hint">右侧页面保留原始交互与 750px 宽版布局。</p>
+    </aside>
+
+    <section class="page-board__workspace" aria-labelledby="preview-title">
+      <header class="page-board__toolbar">
+        <div><p>当前预览</p><h1 id="preview-title">大会首页</h1></div>
+        <div class="page-board__toolbar-actions"><span>750px 画布</span><a id="open-page" href="index.html" target="_blank" rel="noopener">在新标签页打开 <span aria-hidden="true">↗</span></a></div>
+      </header>
+      <div class="page-board__stage" aria-busy="true">
+        <p class="page-board__loading" id="preview-status" role="status">正在加载页面…</p>
+        <iframe id="page-preview" title="大会首页预览" width="750" src="index.html"></iframe>
+        <button class="page-board__retry" id="retry-preview" type="button" hidden>重新加载</button>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="page-board.js"></script>
+</body>
+</html>

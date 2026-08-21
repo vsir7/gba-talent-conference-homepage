@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "tool": "normalize_shortcut_icon",
+  "runId": "20260811-conference-home-v1",
+  "normalizedAt": "2026-08-11T06:37:37.839Z",
+  "transform": "alpha bounds crop, proportional Lanczos3 resize, transparent square padding; no stretch or model call",
+  "source": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/.harness/traces/20260811-conference-home/conference-home/shortcut-icons/calendar.alpha.png",
+    "sha256": "sha256:883e9890b19423b94a3bf123503acc9c235869d6b6931689d78bef9b906ce18f",
+    "pixelSize": {
+      "width": 1254,
+      "height": 1254
+    },
+    "detectedAlphaBounds": {
+      "left": 203,
+      "top": 160,
+      "width": 849,
+      "height": 934
+    },
+    "expandedCrop": {
+      "left": 201,
+      "top": 158,
+      "width": 853,
+      "height": 938
+    },
+    "alphaThreshold": 8,
+    "sourcePadding": 2,
+    "edgeAlphaPixels": 0,
+    "edgeAlphaNote": "Source already contains transparent edge padding"
+  },
+  "normalization": {
+    "canvasSize": 192,
+    "subjectExtent": 0.74,
+    "yOffsetRatio": -0.02,
+    "resizedSubject": {
+      "width": 129,
+      "height": 142,
+      "left": 32,
+      "top": 21
+    }
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/icons/calendar.png",
+    "sha256": "sha256:f84158b1e843a224ca6985f42f0819689952dc6f687fd9e7ad64a967071f9d0a",
+    "pixelSize": {
+      "width": 192,
+      "height": 192
+    },
+    "format": "png",
+    "hasAlpha": true
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/lib/index.js"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "tool": "normalize_shortcut_icon",
+  "runId": "20260811-conference-home-v1",
+  "normalizedAt": "2026-08-11T06:37:38.710Z",
+  "transform": "alpha bounds crop, proportional Lanczos3 resize, transparent square padding; no stretch or model call",
+  "source": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/.harness/traces/20260811-conference-home/conference-home/shortcut-icons/shuttle.alpha.png",
+    "sha256": "sha256:044c079f61aef9190992ed1c5e85b98d27fa937704832e7c55322072b8f1d12a",
+    "pixelSize": {
+      "width": 1254,
+      "height": 1254
+    },
+    "detectedAlphaBounds": {
+      "left": 230,
+      "top": 215,
+      "width": 794,
+      "height": 833
+    },
+    "expandedCrop": {
+      "left": 228,
+      "top": 213,
+      "width": 798,
+      "height": 837
+    },
+    "alphaThreshold": 8,
+    "sourcePadding": 2,
+    "edgeAlphaPixels": 0,
+    "edgeAlphaNote": "Source already contains transparent edge padding"
+  },
+  "normalization": {
+    "canvasSize": 192,
+    "subjectExtent": 0.74,
+    "yOffsetRatio": -0.02,
+    "resizedSubject": {
+      "width": 135,
+      "height": 142,
+      "left": 29,
+      "top": 21
+    }
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/icons/shuttle.png",
+    "sha256": "sha256:dc22778b01bfaf6ea838d559fa6f68126b45cc493fbff1be653de15126b71501",
+    "pixelSize": {
+      "width": 192,
+      "height": 192
+    },
+    "format": "png",
+    "hasAlpha": true
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/lib/index.js"
+  }
+}

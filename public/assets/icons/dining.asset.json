@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "tool": "normalize_shortcut_icon",
+  "runId": "20260811-conference-home-v1",
+  "normalizedAt": "2026-08-11T06:37:38.046Z",
+  "transform": "alpha bounds crop, proportional Lanczos3 resize, transparent square padding; no stretch or model call",
+  "source": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/.harness/traces/20260811-conference-home/conference-home/shortcut-icons/dining.alpha.png",
+    "sha256": "sha256:64f14e3fe37a0f89b221376e98e41088cfe0401eb0fc5998e44e67d30efc927a",
+    "pixelSize": {
+      "width": 1254,
+      "height": 1254
+    },
+    "detectedAlphaBounds": {
+      "left": 277,
+      "top": 168,
+      "width": 721,
+      "height": 923
+    },
+    "expandedCrop": {
+      "left": 275,
+      "top": 166,
+      "width": 725,
+      "height": 927
+    },
+    "alphaThreshold": 8,
+    "sourcePadding": 2,
+    "edgeAlphaPixels": 0,
+    "edgeAlphaNote": "Source already contains transparent edge padding"
+  },
+  "normalization": {
+    "canvasSize": 192,
+    "subjectExtent": 0.74,
+    "yOffsetRatio": -0.02,
+    "resizedSubject": {
+      "width": 111,
+      "height": 142,
+      "left": 41,
+      "top": 21
+    }
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/icons/dining.png",
+    "sha256": "sha256:2577c6650c6cd8376f1f99d73b9c92dd12f30afd29a6938af00d785e848c2477",
+    "pixelSize": {
+      "width": 192,
+      "height": 192
+    },
+    "format": "png",
+    "hasAlpha": true
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/lib/index.js"
+  }
+}

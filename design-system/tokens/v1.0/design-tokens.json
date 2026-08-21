@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "name": "GBA Talent Summit Mobile Design Tokens",
+    "version": "1.0.0",
+    "archiveLabel": "V1.0",
+    "legacyInternalVersion": "2.1.0",
+    "source": "Seven supplied mobile UI screenshots plus the common mobile foundation specification",
+    "primaryPlatform": "H5",
+    "foundationSpec": "mobile-foundation-design-spec.md",
+    "themeMode": "light-only",
+    "defaultLocale": "zh-CN",
+    "supportedLocales": ["zh-CN"],
+    "defaultTimeZone": "Asia/Shanghai",
+    "browserSupport": {
+      "safariIosMin": "15.4",
+      "chromiumMin": "108",
+      "wechatValidation": "latest-stable-on-target-os",
+      "reviewCadence": "quarterly"
+    },
+    "performanceBudget": {
+      "webVitals": {
+        "lcpP75Max": "2500ms",
+        "inpP75Max": "200ms",
+        "clsP75Max": "0.1"
+      },
+      "assets": {
+        "initialJsGzipMax": "200KiB",
+        "initialCssGzipMax": "80KiB",
+        "heroImageMax": "300KiB",
+        "listThumbnailMax": "100KiB"
+      }
+    },
+    "referenceViewport": "390px",
+    "supportedViewport": "320px–480px",
+    "sourceOfTruth": true
+  },
+  "color": {
+    "brand": {
+      "900": "#070E57",
+      "800": "#0B1B79",
+      "700": "#111FC2",
+      "600": "#3626DC",
+      "500": "#5740F2",
+      "400": "#745DF0",
+      "300": "#9A86F7",
+      "100": "#ECE9FF",
+      "50": "#F7F5FF"
+    },
+    "accent": {
+      "blue": "#6F8EFF",
+      "cyan": "#56C4D0",
+      "pink": "#D95CC2"
+    },
+    "text": {
+      "primary": "#101426",
+      "brand": "#0B1B79",
+      "secondary": "#5C6380",
+      "tertiary": "#6E758F",
+      "inverse": "#FFFFFF",
+      "link": "#3626DC"
+    },
+    "surface": {
+      "page": "#F7F7FD",
+      "default": "#FFFFFF",
+      "glass": "rgba(255, 255, 255, 0.94)",
+      "subtle": "#F4F3FC"
+    },
+    "border": {
+      "default": "#E3E5F3",
+      "subtle": "#ECECF5",
+      "focus": "#5740F2",
+      "upload": "#C9C9E6"
+    },
+    "state": {
+      "successAccent": "#20B866",
+      "successText": "#128653",
+      "successBg": "#EAF9F1",
+      "warningAccent": "#F47B20",
+      "warningText": "#B84D00",
+      "warningBg": "#FFF2E7",
+      "dangerAccent": "#FF4D5A",
+      "dangerText": "#C72C3A",
+      "dangerBg": "#FFF0F2",
+      "disabledBg": "#D9D7E9",
+      "disabledText": "#6F7182"
+    }
+  },
+  "gradient": {
+    "brand": "linear-gradient(100deg, #3E2BFF 0%, #6548F4 52%, #8057E8 100%)",
+    "brandSoft": "linear-gradient(135deg, rgba(87, 64, 242, 0.16), rgba(154, 134, 247, 0.06))",
+    "page": "radial-gradient(circle at 82% 8%, rgba(137, 112, 255, 0.12), transparent 28%), radial-gradient(circle at 8% 32%, rgba(111, 142, 255, 0.08), transparent 24%), #F7F7FD",
+    "imageMask": "linear-gradient(90deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.82) 48%, rgba(255, 255, 255, 0.08) 100%)"
+  },
+  "typography": {
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"PingFang SC\", \"HarmonyOS Sans SC\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif",
+    "displayLarge": { "fontSize": "32px", "lineHeight": "40px", "fontWeight": "700" },
+    "display": { "fontSize": "28px", "lineHeight": "38px", "fontWeight": "700" },
+    "immersiveTitle": { "fontSize": "24px", "lineHeight": "32px", "fontWeight": "600" },
+    "pageTitle": { "fontSize": "20px", "lineHeight": "28px", "fontWeight": "600" },
+    "sectionTitle": { "fontSize": "20px", "lineHeight": "28px", "fontWeight": "600" },
+    "cardTitle": { "fontSize": "18px", "lineHeight": "26px", "fontWeight": "600" },
+    "cardTitleCompact": { "fontSize": "17px", "lineHeight": "24px", "fontWeight": "600" },
+    "bodyLarge": { "fontSize": "17px", "lineHeight": "26px", "fontWeight": "400" },
+    "bodyMedium": { "fontSize": "16px", "lineHeight": "24px", "fontWeight": "400" },
+    "bodySmall": { "fontSize": "14px", "lineHeight": "22px", "fontWeight": "400" },
+    "labelMedium": { "fontSize": "14px", "lineHeight": "20px", "fontWeight": "500" },
+    "labelSmall": { "fontSize": "13px", "lineHeight": "18px", "fontWeight": "500" },
+    "caption": { "fontSize": "12px", "lineHeight": "18px", "fontWeight": "400" },
+    "micro": { "fontSize": "11px", "lineHeight": "16px", "fontWeight": "500" },
+    "button": { "fontSize": "16px", "lineHeight": "24px", "fontWeight": "600" },
+    "metric": { "fontSize": "24px", "lineHeight": "32px", "fontWeight": "600" },
+    "metricLarge": { "fontSize": "28px", "lineHeight": "36px", "fontWeight": "600" }
+  },
+  "space": {
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "64": "64px"
+  },
+  "radius": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px",
+    "xl": "20px",
+    "pill": "999px"
+  },
+  "border": { "width": "1px" },
+  "size": {
+    "control": { "compact": "36px", "sm": "40px", "md": "44px", "lg": "48px", "xl": "52px", "list": "56px" },
+    "icon": { "xs": "16px", "sm": "20px", "md": "24px", "lg": "32px", "xl": "48px" },
+    "avatar": { "xs": "24px", "sm": "32px", "md": "40px", "lg": "48px", "xl": "64px" },
+    "touchTarget": "48px",
+    "touchTargetIosMin": "44px",
+    "appBarCustom": "48px",
+    "appBarNative": "44px",
+    "searchBar": "48px",
+    "searchBarCompact": "44px",
+    "infoRowCompact": "48px",
+    "infoRowDefault": "56px",
+    "messageIcon": "48px"
+  },
+  "layout": {
+    "viewportReference": "390px",
+    "viewportMax": "480px",
+    "gutter": "16px",
+    "gutterWide": "20px",
+    "cardGap": "12px",
+    "sectionGap": "24px"
+  },
+  "breakpoint": {
+    "compactMax": "359px",
+    "regularMin": "360px",
+    "wideMin": "414px",
+    "wideMax": "480px"
+  },
+  "shadow": {
+    "card": "0 6px 20px rgba(34, 42, 121, 0.07)",
+    "cardRaised": "0 10px 28px rgba(54, 38, 220, 0.12)",
+    "button": "0 8px 18px rgba(87, 64, 242, 0.22)",
+    "float": "0 4px 16px rgba(24, 28, 84, 0.10)",
+    "focusRing": "0 0 0 3px rgba(87, 64, 242, 0.10)"
+  },
+  "opacity": {
+    "disabled": "0.42",
+    "muted": "0.64",
+    "decorationMin": "0.08",
+    "decorationMax": "0.22",
+    "glass": "0.94"
+  },
+  "motion": {
+    "durationInstant": "100ms",
+    "durationFast": "160ms",
+    "durationNormal": "240ms",
+    "durationSlow": "320ms",
+    "durationComplex": "400ms",
+    "easeStandard": "cubic-bezier(0.2, 0, 0, 1)",
+    "easeEnter": "cubic-bezier(0, 0, 0, 1)",
+    "easeExit": "cubic-bezier(0.3, 0, 1, 1)"
+  },
+  "zIndex": {
+    "base": "0",
+    "sticky": "100",
+    "appBar": "200",
+    "bottomBar": "300",
+    "overlay": "400",
+    "modal": "500",
+    "toast": "600"
+  },
+  "component": {
+    "appBar": {
+      "customMinHeight": "48px",
+      "nativeIosHeight": "44px",
+      "backTouchTarget": "48px",
+      "backIconSize": "24px",
+      "backFloatingVisualSize": "40px"
+    },
+    "card": {
+      "defaultPadding": "16px",
+      "compactPadding": "12px",
+      "heroPadding": "20px",
+      "heroPaddingComfortable": "24px"
+    },
+    "sectionHeader": { "markerWidth": "3px", "markerHeight": "20px", "markerRadius": "2px" },
+    "hero": {
+      "homeMinHeight": "240px",
+      "homeMaxHeight": "280px",
+      "homeHeight": "clamp(240px, 66vw, 280px)",
+      "mediaAspect": "2",
+      "summaryAspect": "3.6",
+      "summaryCompactAspect": "2.8",
+      "summaryMinHeight": "104px",
+      "profileMinHeight": "220px",
+      "marketingRadius": "24px",
+      "iconMinSize": "48px",
+      "iconMaxSize": "64px"
+    },
+    "iconText": { "compactGap": "6px", "defaultGap": "8px" },
+    "tag": {
+      "minHeight": "22px",
+      "comfortableHeight": "26px",
+      "paddingInline": "8px",
+      "paddingInlineWide": "12px",
+      "paddingBlock": "4px",
+      "iconSize": "14px",
+      "dotSize": "6px"
+    },
+    "microAction": { "visualSize": "28px", "touchTarget": "48px" },
+    "button": {
+      "defaultHeight": "48px",
+      "submitHeight": "52px",
+      "minWidth": "96px",
+      "radius": "12px",
+      "paddingInline": "20px",
+      "contentGap": "8px"
+    },
+    "input": { "height": "48px", "paddingInline": "16px", "textareaMinHeight": "96px" },
+    "tabs": {
+      "defaultHeight": "48px",
+      "segmentedHeight": "48px",
+      "underlineWidth": "28px",
+      "underlineHeight": "4px"
+    },
+    "search": { "defaultHeight": "48px", "compactHeight": "44px", "iconSize": "20px" },
+    "checkbox": { "visualSize": "24px", "touchTarget": "48px" },
+    "radio": { "visualSize": "24px", "rowMinHeight": "48px" },
+    "switch": { "width": "48px", "height": "28px", "touchTarget": "48px" },
+    "avatarBadge": { "visualSize": "24px", "touchTarget": "48px" },
+    "tagSelect": {
+      "minHeight": "40px",
+      "radius": "10px",
+      "compactMaxColumns": "6",
+      "defaultMinWidth": "88px"
+    },
+    "uploader": { "minHeight": "112px", "radius": "12px" },
+    "dialog": { "maxWidth": "320px", "gutter": "24px", "radius": "16px" },
+    "bottomSheet": {
+      "radius": "20px",
+      "maxHeight": "min(80dvh, 720px)",
+      "listItemHeight": "56px",
+      "dragHandleWidth": "32px",
+      "dragHandleHeight": "4px"
+    },
+    "toast": { "minHeight": "44px", "actionTouchTarget": "48px" },
+    "tabBar": { "contentHeight": "56px", "iconSize": "24px" },
+    "newsCard": {
+      "imageAspect": "1.5",
+      "imageWidthMin": "38%",
+      "imageWidthMax": "42%",
+      "imageRadius": "8px",
+      "videoPlayMinSize": "40px",
+      "videoPlayMaxSize": "48px",
+      "stackBreakpoint": "340px"
+    },
+    "messageCard": { "iconContainerSize": "48px", "iconSize": "28px" },
+    "guestCard": {
+      "imageAspect": "1",
+      "standardColumns": "3",
+      "compactColumns": "4",
+      "standardNameFontSize": "16px",
+      "compactNameFontSize": "14px"
+    },
+    "identityTile": {
+      "compactColumns": "4",
+      "compactGap": "10px",
+      "minHeight": "56px",
+      "comfortableMinWidth": "100px"
+    },
+    "profileHeader": { "avatarSize": "72px", "avatarBorderWidth": "3px" },
+    "bottomActionBar": {
+      "paddingBlock": "12px",
+      "paddingInline": "16px",
+      "secondaryFraction": "40%",
+      "primaryFraction": "60%"
+    },
+    "featureEntryCard": { "primaryFraction": "3fr", "secondaryFraction": "2fr" },
+    "noticeBar": { "minHeight": "48px" },
+    "actionRow": { "minHeight": "64px", "leadingIconSize": "24px", "arrowIconSize": "16px" },
+    "sectionLinkHeader": { "minHeight": "48px", "arrowIconSize": "16px" },
+    "viewCount": { "iconSize": "16px" },
+    "venueCard": { "imageAspect": "1" },
+    "mapOverview": { "aspect": "1.7778" }
+  }
+}
