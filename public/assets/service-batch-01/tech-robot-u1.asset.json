@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T10:42:44.019Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/002_H5端_服务_BT74b812AoAqr2xQRAkco7oznlb.png",
+    "sha256": "sha256:781d490c1696a9b6403582eeaa13a34c49ca31bd07616a415c79065221d5bfb9",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 63,
+    "y": 570,
+    "width": 144,
+    "height": 162
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/tech-robot-u1.png",
+    "sha256": "sha256:1650802b13844611c59322829629a16e88964dd1684826c85f4b51ac03b45d26",
+    "pixelSize": {
+      "width": 144,
+      "height": 162
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "tool": "icon_role_inventory",
+  "runId": "replace-me",
+  "page": "replace-me",
+  "referenceSha256": "replace-after-inspection",
+  "reviewedBy": "replace-me",
+  "reviewedAt": "YYYY-MM-DDTHH:mm:ssZ",
+  "shortcutCount": 1,
+  "items": [
+    {
+      "id": "replace-me",
+      "label": "replace-me",
+      "location": "replace-me",
+      "role": "shortcut",
+      "primaryEntry": true,
+      "sourceType": "original",
+      "libraryPackage": null,
+      "reason": "replace-me",
+      "domLocator": "replace-me",
+      "assetLocator": "replace-me",
+      "labelLocator": "replace-me"
+    },
+    {
+      "id": "replace-utility-id",
+      "label": "replace-utility-label",
+      "location": "replace-utility-location",
+      "role": "utility",
+      "primaryEntry": false,
+      "sourceType": "third-party",
+      "libraryPackage": "replace-library-package",
+      "libraryVersion": "replace-library-version",
+      "libraryIcon": "replace-exported-icon-name",
+      "libraryImport": "replace-library-package-or-deep-import",
+      "implementationPath": "replace-source-file-relative-to-manifest.json",
+      "implementationSha256": "replace-source-file-sha256",
+      "reason": "replace-why-this-is-an-auxiliary-icon",
+      "domLocator": "replace-unique-utility-root-selector",
+      "assetLocator": "replace-unique-visible-icon-selector",
+      "labelLocator": null
+    }
+  ]
+}

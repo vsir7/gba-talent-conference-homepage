@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T10:42:45.132Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/002_H5端_服务_BT74b812AoAqr2xQRAkco7oznlb.png",
+    "sha256": "sha256:781d490c1696a9b6403582eeaa13a34c49ca31bd07616a415c79065221d5bfb9",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 658,
+    "y": 579,
+    "width": 126,
+    "height": 151
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/tech-robot-bumi.png",
+    "sha256": "sha256:58289650776356b01a5675bd2a5c9426b660716ee4208301dae1c9c9e167db32",
+    "pixelSize": {
+      "width": 126,
+      "height": 151
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T11:38:28.025Z",
+  "kind": "illustration",
+  "role": "key-visual",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/004_H5端_服务_JM3HbpfS9oy0o0xzfsActpEXn5W.png",
+    "sha256": "sha256:2cf0357f3caf6bcb8d5306aabc0fd7fb7f9a8fa801b334333f303b3385815ae0",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 40,
+    "y": 421,
+    "width": 773,
+    "height": 336
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/carnival-city-scene.png",
+    "sha256": "sha256:8b9dae0545f80b52d14425deefa270137e219a6758ebe09b31ddeab8c840a8b8",
+    "pixelSize": {
+      "width": 773,
+      "height": 336
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

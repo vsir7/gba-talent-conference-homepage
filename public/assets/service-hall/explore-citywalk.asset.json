@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T09:16:56.432Z",
+  "kind": "illustration",
+  "role": "shortcut",
+  "sourcePolicy": "exact-source-priority",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/001_H5端_服务_I6R2bUivkonf84x6GY8ckStPnYb.png",
+    "sha256": "sha256:350f25931855ab23dfb188afdbc4741960129d8ca45204bfb019ab64fc0a423b",
+    "orientedPixelSize": {
+      "width": 853,
+      "height": 1844
+    }
+  },
+  "crop": {
+    "x": 84,
+    "y": 1519,
+    "width": 68,
+    "height": 87
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-hall/explore-citywalk.png",
+    "sha256": "sha256:a10ab84e4d5fc06abb095b04174ccf5f9aec257c9840fe065443d4b2e68942ee",
+    "pixelSize": {
+      "width": 68,
+      "height": 87
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

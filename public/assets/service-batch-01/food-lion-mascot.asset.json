@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T11:38:53.000Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/007_H5端_服务_RBlobbaI5oKkZSxuVk5chDxcnRf.png",
+    "sha256": "sha256:0df34a0feed48d88ddd31cbdbb689db8375a5c3a33f47a0cb44a58903c766d8d",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 52,
+    "y": 1211,
+    "width": 177,
+    "height": 177
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/food-lion-mascot.png",
+    "sha256": "sha256:08485724728274047b1b05c9070c998f31464ad23e09d26c04b8f8ec51854a5f",
+    "pixelSize": {
+      "width": 177,
+      "height": 177
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

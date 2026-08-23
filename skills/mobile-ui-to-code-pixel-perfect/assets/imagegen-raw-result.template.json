@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "toolCallId": "replace-with-visible-tool-call-reference",
+  "resultId": "replace-with-result-or-conversation-artifact-reference",
+  "result": {
+    "image_url": "replace-with-the-exact-data-url-returned-by-the-tool",
+    "output_hint": "replace-with-the-exact-output-hint-when-present"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T12:04:54.111Z",
+  "kind": "photo",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/008_H5端_服务_RpLLbtrnXojIbZxL3C1cDRvZnZe.png",
+    "sha256": "sha256:f5a42181c2447f1b1da7288bfce2793fd92e5979a37456d7f9bd560705da61c2",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 322,
+    "y": 1255,
+    "width": 210,
+    "height": 150
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-02/city-arena.png",
+    "sha256": "sha256:323d7f48e6c861bfa3f4ec7e891922b2a47d982a13bad81fc11182fbb261d61c",
+    "pixelSize": {
+      "width": 210,
+      "height": 150
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "selectedBy": "user-confirmation",
+  "recordedAt": "YYYY-MM-DDTHH:mm:ssZ",
+  "referenceSha256": "replace-after-inspection",
+  "page": "replace-me",
+  "state": "reference-visible-state",
+  "selected": {
+    "cssViewport": { "width": 390, "height": 844 },
+    "deviceScaleFactor": 3,
+    "screenshotScale": "device",
+    "captureMode": "viewport",
+    "browser": "chromium",
+    "isMobile": true,
+    "hasTouch": true,
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "colorScheme": "light"
+  },
+  "candidatesConsidered": [
+    {
+      "cssWidth": 390,
+      "dpr": 3,
+      "decision": "selected",
+      "reason": "replace-with-audited-evidence"
+    }
+  ],
+  "rationale": "replace-me",
+  "source": "user message, design metadata path, or auditable project configuration"
+}

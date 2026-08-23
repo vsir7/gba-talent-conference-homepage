@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T11:38:29.233Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/004_H5端_服务_JM3HbpfS9oy0o0xzfsActpEXn5W.png",
+    "sha256": "sha256:2cf0357f3caf6bcb8d5306aabc0fd7fb7f9a8fa801b334333f303b3385815ae0",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 460,
+    "y": 1122,
+    "width": 146,
+    "height": 151
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/carnival-food.png",
+    "sha256": "sha256:9c80799cd7ae038ae1b15bb3aa0464f358688da41332f3bc56052bdaed04f52d",
+    "pixelSize": {
+      "width": 146,
+      "height": 151
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

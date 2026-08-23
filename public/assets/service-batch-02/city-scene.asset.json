@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T12:04:53.759Z",
+  "kind": "illustration",
+  "role": "key-visual",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/008_H5端_服务_RpLLbtrnXojIbZxL3C1cDRvZnZe.png",
+    "sha256": "sha256:f5a42181c2447f1b1da7288bfce2793fd92e5979a37456d7f9bd560705da61c2",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 0,
+    "y": 320,
+    "width": 852,
+    "height": 260
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-02/city-scene.png",
+    "sha256": "sha256:bd102b1006a241a41bec5f8f44066fced555b0a56794b7f470cf58a37cb22b34",
+    "pixelSize": {
+      "width": 852,
+      "height": 260
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

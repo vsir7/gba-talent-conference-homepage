@@ -1,0 +1,4 @@
+interface:
+  display_name: "移动 UI 图片像素级还原"
+  short_description: "从 PNG/JPG 还原真实前端并以像素差分闭环验收"
+  default_prompt: "Use $mobile-ui-to-code-pixel-perfect to reconstruct this mobile UI image as real frontend code and verify the highest defensible pixel fidelity."

@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "runId": "replace-me",
+  "setId": "replace-me",
+  "page": "replace-me",
+  "sourcePolicy": "exact-source-priority",
+  "labelsRenderedAsDom": true,
+  "thirdPartyShortcutIconsAllowed": false,
+  "rights": {
+    "referenceUseConfirmed": false,
+    "confirmedBy": null,
+    "notes": null
+  },
+  "styleLock": {
+    "sourceReference": "/absolute/path/reference.png",
+    "renderCssSize": { "width": 48, "height": 48 }
+  },
+  "icons": [
+    {
+      "id": "replace-me",
+      "label": "replace-me",
+      "semantic": "replace-me",
+      "sourceKind": "original",
+      "sourceOutput": "/absolute/path/original-icon.png",
+      "sourceSha256": "replace-after-validation",
+      "atomicExtractionProof": null,
+      "finalPath": "/absolute/path/original-icon.png",
+      "finalSha256": "replace-after-validation",
+      "thirdParty": false,
+      "selected": true,
+      "review": {
+        "semantic": "pending",
+        "visualMatch": "pending",
+        "rights": "pending",
+        "accessibility": "pending"
+      }
+    }
+  ]
+}

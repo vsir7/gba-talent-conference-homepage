@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T12:26:21.607Z",
+  "kind": "photo",
+  "role": "key-visual",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/016_H5端_日程_OiXRbcp1ZoH6O4x3hsQcJLTen8f.png",
+    "sha256": "sha256:0fe64b09195dc11816446071a14332c196b80f18897179ac960fbd0acda68b05",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 405,
+    "y": 185,
+    "width": 410,
+    "height": 342
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-03/agenda-hero.png",
+    "sha256": "sha256:58ea29615eaed2c82ddcb8c7c098b3409f2caddee2668564fa62d4f81d995302",
+    "pixelSize": {
+      "width": 410,
+      "height": 342
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

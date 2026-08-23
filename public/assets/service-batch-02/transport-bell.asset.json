@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T12:18:08.201Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/009_H5端_服务_DFQzb5TR3ozNfWxGMWTcRdNsnAd.png",
+    "sha256": "sha256:d724741b5332e023601ad51ecbd3fcc57bf97b10bdf5348a3afcbc61cd5d33eb",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 74,
+    "y": 1490,
+    "width": 96,
+    "height": 96
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-02/transport-bell.png",
+    "sha256": "sha256:4038c709b218c327946a101ced2bc5d7a865897997db76f5217f5b4653f4f115",
+    "pixelSize": {
+      "width": 96,
+      "height": 96
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

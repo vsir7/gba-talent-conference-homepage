@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "approvedBy": "replace-with-authorized-user",
+  "approvedAt": "YYYY-MM-DDTHH:mm:ssZ",
+  "page": "replace-me",
+  "state": "replace-me",
+  "mode": "thresholded",
+  "thresholds": {
+    "channelTolerance": 0,
+    "maxMismatchRatio": 0,
+    "minPixelSimilarity": 1
+  },
+  "mask": null,
+  "reason": "replace-me",
+  "source": "user message or auditable approval record"
+}

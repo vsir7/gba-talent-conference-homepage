@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "runId": "replace-me",
+  "setId": "replace-me",
+  "page": "replace-me",
+  "labelsRenderedAsDom": true,
+  "thirdPartyShortcutIconsAllowed": false,
+  "rights": {
+    "referenceUseConfirmed": false,
+    "confirmedBy": null,
+    "notes": null
+  },
+  "styleLock": {
+    "sourceReference": "/absolute/path/reference.png",
+    "anchorIconId": "replace-me",
+    "canvas": { "width": 1024, "height": 1024 },
+    "delivery": {
+      "width": 192,
+      "height": 192,
+      "format": "png",
+      "requireAlpha": true,
+      "requireTransparentBorder": true,
+      "alphaThreshold": 8,
+      "minSubjectExtentRatio": 0.45,
+      "maxSubjectExtentRatio": 0.82,
+      "maxOpaquePlateCoverage": 0.985,
+      "maxBytes": 250000
+    },
+    "renderCssSize": { "width": 48, "height": 48 },
+    "palette": [],
+    "style": "replace-me",
+    "perspective": "replace-me",
+    "lighting": "replace-me",
+    "generationBackdrop": { "type": "chroma-key", "color": "#00FF00" },
+    "deliveryBackground": "transparent"
+  },
+  "generation": {
+    "skill": "imagegen",
+    "mode": "built-in",
+    "tool": "image_gen.imagegen",
+    "model": "not-exposed",
+    "stylePrompt": "replace-me",
+    "createdAt": "YYYY-MM-DDTHH:mm:ssZ"
+  },
+  "icons": [
+    {
+      "id": "replace-me",
+      "label": "replace-me",
+      "semantic": "replace-me",
+      "attempt": 1,
+      "prompt": "replace-me",
+      "sourceKind": "image-generation",
+      "sourceOutput": "/absolute/path/generated-source.png",
+      "sourceSha256": "replace-after-validation",
+      "generationReceipt": "/absolute/path/imagegen-receipt.json",
+      "generationReceiptSha256": "replace-after-validation",
+      "backgroundRemoval": {
+        "mode": "chroma-key",
+        "tool": "remove_chroma_key.py",
+        "keyColor": "#00FF00"
+      },
+      "alphaSourcePath": "/absolute/path/generated-source.alpha.png",
+      "alphaSourceSha256": "replace-after-validation",
+      "normalizationReport": "/absolute/path/final-icon.asset.json",
+      "normalizationReportSha256": "replace-after-validation",
+      "finalPath": "/absolute/path/final-icon.png",
+      "finalSha256": "replace-after-validation",
+      "thirdParty": false,
+      "postProcessing": ["chroma-key removal", "deterministic alpha-bounds normalization"],
+      "selected": true,
+      "review": {
+        "semantic": "pending",
+        "styleConsistency": "pending",
+        "alpha": "pending",
+        "trademark": "pending",
+        "accessibility": "pending"
+      }
+    }
+  ]
+}

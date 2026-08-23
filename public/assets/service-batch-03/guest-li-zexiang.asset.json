@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T12:26:21.516Z",
+  "kind": "photo",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/017_H5端_日程_QLBBb4UoaoF94vxaLKVcNFMenMe.png",
+    "sha256": "sha256:31fde84a080a67a2e1314d0f317986a976bcee7be14b975d62acc17a14cc686a",
+    "orientedPixelSize": {
+      "width": 941,
+      "height": 1672
+    }
+  },
+  "crop": {
+    "x": 79,
+    "y": 222,
+    "width": 230,
+    "height": 255
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-03/guest-li-zexiang.png",
+    "sha256": "sha256:53f5a04e6e8e6c4c0f80fc63744d8341d9e2b6dba8a06bcc36085a32247af170",
+    "pixelSize": {
+      "width": 230,
+      "height": 255
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

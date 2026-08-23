@@ -1,0 +1,246 @@
+{
+  "version": 4,
+  "taskId": "replace-me",
+  "page": "replace-me",
+  "implementation": {
+    "projectRoot": "/absolute/path/project",
+    "framework": "replace-me",
+    "packageManager": "replace-me",
+    "revision": null,
+    "dirty": null,
+    "buildMode": "production",
+    "buildArtifact": {
+      "path": "/absolute/path/project/dist",
+      "sha256": null,
+      "builtByCommand": "build",
+      "builtByReceipt": null,
+      "builtAt": null
+    }
+  },
+  "state": {
+    "name": "default",
+    "route": "/",
+    "query": "",
+    "scroll": { "x": 0, "y": 0 },
+    "dataKind": "none",
+    "fixture": null,
+    "stateScript": null,
+    "expectedFinalUrl": "http://127.0.0.1:4173/"
+  },
+  "reference": {
+    "path": "/absolute/path/reference.png",
+    "sha256": "replace-after-inspection",
+    "captureType": "viewport",
+    "pixelWidth": 390,
+    "pixelHeight": 844,
+    "orientationApplied": true,
+    "hasAlpha": null,
+    "sourceNotes": "original user-provided image",
+    "sourceQuality": "unassessed",
+    "baselineKind": "original-reference",
+    "parentReferenceSha256": null,
+    "baselineApproval": null,
+    "contractSelection": "explicit",
+    "contractSelectedAt": null,
+    "contractSelectedBy": null,
+    "contractSelectionEvidence": {
+      "path": null,
+      "sha256": null
+    },
+    "contractSelectionRationale": null,
+    "viewportCandidatesObserved": []
+  },
+  "render": {
+    "url": "http://127.0.0.1:4173/",
+    "cssViewport": { "width": 390, "height": 844 },
+    "deviceScaleFactor": 1,
+    "isMobile": true,
+    "hasTouch": true,
+    "screenshotScale": "css",
+    "expectedPixelSize": { "width": 390, "height": 844 },
+    "captureMode": "viewport",
+    "selector": null,
+    "serviceWorkers": "block",
+    "browser": "chromium",
+    "browserVersion": null,
+    "operatingSystem": null,
+    "nodeVersion": null,
+    "playwrightVersion": null,
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "colorScheme": "light",
+    "reducedMotion": "reduce",
+    "hideScrollbars": true,
+    "stabilizeCss": true,
+    "animations": "disabled",
+    "warmScroll": false,
+    "warmupCaptures": 0,
+    "warmupFullPage": false,
+    "warmupPhase": "after-state",
+    "settleMs": 120,
+    "waitFor": "[data-ui-ready=\"true\"]",
+    "expectedHttpStatus": 200,
+    "requireNetworkIdle": false,
+    "allowedHttpErrorPatterns": [],
+    "serverKind": "production-preview",
+    "domPolicy": {
+      "realDomRequired": true,
+      "forbidViewportRaster": true,
+      "minimumVisibleElements": 3,
+      "minimumVisibleTextElements": 1,
+      "minimumInteractiveElements": 1,
+      "maximumCombinedRasterCoverage": 0.84
+    }
+  },
+  "typography": {
+    "strategy": "system",
+    "fontFiles": [],
+    "requiredWeights": [400, 700],
+    "fallbackAllowed": true,
+    "embeddedFontPolicy": {
+      "dataUrlMustMatchRegisteredFontHash": true,
+      "bufferSourceMustMatchRegisteredFontHash": true,
+      "blobAllowed": false,
+      "inaccessibleStyleSheetAllowed": false,
+      "inaccessibleFrameAllowed": false,
+      "runtimeFontFaceInstrumentationRequired": true,
+      "nestedAndClosedShadowRootsTracked": true,
+      "fontFaceStringSourcesNormalizedThroughCssom": true,
+      "fontFaceApiRecordsMustBindClassifiedResources": true,
+      "dataAndBlobSchemesComparedCaseInsensitively": true
+    }
+  },
+  "assetPolicy": {
+    "shortcutIcons": {
+      "involved": null,
+      "requiredSource": "exact-source-priority",
+      "thirdPartyAllowed": false,
+      "allowedSources": ["original", "reference-extracted"],
+      "generatedOnlyWhenExplicitlyRequested": true,
+      "labelsRenderedAsDom": true,
+      "classificationEvidence": "analysis/icon-role-inventory.json",
+      "classificationEvidenceSha256": null,
+      "manifest": "shortcut-icons/assets.json",
+      "validationReport": null
+    },
+    "utilityIcons": {
+      "thirdPartyAllowed": true,
+      "approvedLibraries": [],
+      "requiredLibraryEvidenceFields": [
+        "package",
+        "version",
+        "importPath",
+        "importSha256",
+        "packageJsonPath",
+        "packageJsonSha256",
+        "licensePath",
+        "licenseSha256"
+      ],
+      "requiredDomProvenanceAttributes": [
+        "data-icon-library",
+        "data-icon-version",
+        "data-icon-name"
+      ],
+      "licenseEvidenceRequired": true,
+      "remoteHotlinkAllowed": false
+    }
+  },
+  "assets": [],
+  "reconstruction": {
+    "objective": "highest-defensible-pixel-fidelity",
+    "sourceContractStatus": "pending",
+    "modelAssistance": {
+      "used": false,
+      "purposes": [],
+      "outputs": []
+    },
+    "inventories": {
+      "text": null,
+      "components": null,
+      "assets": null,
+      "states": null
+    },
+    "iterationPolicy": {
+      "defaultMode": "exact",
+      "changeOneVariableGroupPerRound": true,
+      "postHocThresholdChangesForbidden": true,
+      "modelSelfAssessmentIsFinalGate": false
+    }
+  },
+  "responsiveChecks": [
+    { "width": 375, "height": 812, "dpr": 1, "required": true },
+    { "width": 390, "height": 844, "dpr": 1, "required": true },
+    { "width": 414, "height": 896, "dpr": 1, "required": true }
+  ],
+  "delivery": {
+    "target": "production",
+    "grade": "blocked",
+    "officialRouteIntegrated": false,
+    "productionDataSource": { "kind": "none", "reason": null },
+    "authIntegration": null,
+    "requiredStates": ["loading", "empty", "error", "success"],
+    "targetBrowsers": ["chromium"],
+    "accessibilityStandard": "WCAG 2.2 AA",
+    "performanceBudget": { "lcpMs": 2500, "cls": 0.1, "interactionMs": 200 },
+    "commands": {
+      "build": null,
+      "typecheck": null,
+      "lint": null,
+      "unitOrComponent": null,
+      "e2eOrSmoke": null,
+      "projectGate": null,
+      "productionPreview": "mobile-ui-to-code-pixel-perfect:start_production_preview:artifact-static:v1"
+    },
+    "productionPreviewReceipt": null,
+    "stateCommands": {
+      "loading": null,
+      "empty": null,
+      "error": null,
+      "success": null
+    },
+    "qualityCommands": {
+      "accessibility": null,
+      "performance": null,
+      "security": null,
+      "asset-license": null,
+      "browser:chromium": null
+    },
+    "productionPreviewUrl": null,
+    "unresolvedP0": null,
+    "unresolvedP1": null
+  },
+  "acceptance": {
+    "mode": "exact",
+    "channelTolerance": 0,
+    "maxMismatchRatio": 0,
+    "minPixelSimilarity": 1,
+    "minimumStableCaptures": 3,
+    "mask": null,
+    "background": null,
+    "approvedBy": null,
+    "approvedAt": null,
+    "approvalReason": null,
+    "approvalEvidence": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "evidence": {
+    "runId": "replace-me",
+    "referenceMetadata": null,
+    "analysis": null,
+    "acceptanceReport": null,
+    "captureReports": [],
+    "visualIterations": [],
+    "responsiveCaptureReports": [],
+    "stabilityMetrics": [],
+    "finalComparisonMetrics": null,
+    "visualFidelityResult": "final/visual-fidelity-result.json",
+    "releaseReadiness": null,
+    "productionCommandResults": [],
+    "stateResults": [],
+    "qualityGateResults": []
+  },
+  "unknowns": [],
+  "createdAt": "YYYY-MM-DDTHH:mm:ssZ"
+}

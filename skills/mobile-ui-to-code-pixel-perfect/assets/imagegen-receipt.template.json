@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "runId": "replace-me",
+  "toolCallId": "replace-with-visible-tool-call-reference",
+  "resultId": "replace-with-result-or-conversation-artifact-reference",
+  "generatedAt": "YYYY-MM-DDTHH:mm:ssZ",
+  "promptSha256": "replace-after-hashing-the-exact-prompt",
+  "sourceOutput": "/absolute/path/generated-source.png",
+  "sourceSha256": "replace-after-generation",
+  "rawToolResult": {
+    "archivedPath": "/absolute/path/raw-imagegen-tool-result.json",
+    "sha256": "replace-after-archive"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T11:38:28.612Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/004_H5端_服务_JM3HbpfS9oy0o0xzfsActpEXn5W.png",
+    "sha256": "sha256:2cf0357f3caf6bcb8d5306aabc0fd7fb7f9a8fa801b334333f303b3385815ae0",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 454,
+    "y": 875,
+    "width": 141,
+    "height": 164
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/carnival-culture.png",
+    "sha256": "sha256:f485f6fac4c26d161b7930ff95d76e64ee87438de5da3fcc6668af9348e33fee",
+    "pixelSize": {
+      "width": 141,
+      "height": 164
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

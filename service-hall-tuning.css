@@ -1,0 +1,26 @@
+/* Reference-state density correction for the 375px regular-phone composition. */
+@media (min-width:360px) and (max-width:413px){
+  .quick-services{min-height:82px;padding:8px 4px 6px}
+  .quick-services button{gap:2px}
+  .quick-services img{width:36px;height:36px;mix-blend-mode:multiply}
+  .quick-services button:last-child img{width:42px;height:36px}
+  .explore-section{padding:12px 8px 8px}
+  .section-heading{margin-bottom:8px}
+  .explore-grid{gap:7px}
+  .explore-card{min-height:60px;padding:7px 4px;grid-template-columns:27px minmax(0,1fr) 12px;gap:2px}
+  .explore-card img{width:27px;height:27px;mix-blend-mode:multiply}
+  .explore-grid--two .explore-card{min-height:62px;padding-inline:8px;grid-template-columns:34px minmax(0,1fr) 13px;gap:5px}
+  .explore-grid--two .explore-card img{width:34px;height:34px}
+  .explore-card span{gap:0}
+  .explore-card strong{font-size:12px;line-height:16px}
+  .explore-card small{font-size:10px;line-height:14px}
+}
+
+@media (min-width:640px){
+  .explore-grid--three .explore-card{grid-template-columns:52px minmax(0,1fr) 20px;padding-inline:12px;gap:6px}
+  .explore-grid--three .explore-card img{width:52px;height:52px;mix-blend-mode:multiply}
+  .explore-grid--three .explore-card strong,.explore-grid--three .explore-card small{white-space:nowrap}
+  .explore-grid--three .explore-card strong{font-size:1.1rem;line-height:24px}
+  .explore-grid--three .explore-card small{font-size:var(--typography-body-small-font-size);line-height:22px}
+  .explore-grid--two .explore-card img{mix-blend-mode:multiply}
+}

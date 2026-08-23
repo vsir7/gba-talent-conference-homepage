@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T12:04:54.879Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/012_H5端_服务_JhLDbjbWIotAsYxQlywcyMtOnFb.png",
+    "sha256": "sha256:05b99a4845262f1c0a1545e62a54be1b3859ed0ae3caa9dadb51a36cb9e337e5",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 96,
+    "y": 770,
+    "width": 136,
+    "height": 180
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-02/hotel-placeholder.png",
+    "sha256": "sha256:32b57897583afb81d9e0316039b12c8752b080b4e0a87f9075eef17a2c0477bf",
+    "pixelSize": {
+      "width": 136,
+      "height": 180
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T11:38:27.699Z",
+  "kind": "illustration",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/003_H5端_服务_DPdqbOAM3oPxcMxqIs7cN0c5nfd.png",
+    "sha256": "sha256:f2c85d6fd1e4e7d22c0911d69dc27a0a5e7f5a9c8cffa944ce0a7758235dac11",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 91,
+    "y": 385,
+    "width": 126,
+    "height": 138
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/dining-utensils.png",
+    "sha256": "sha256:e10ca7ea45fb32c7290b38c9c39e71df72e90dbff509a3cb9099fdee7d662ef1",
+    "pixelSize": {
+      "width": 126,
+      "height": 138
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

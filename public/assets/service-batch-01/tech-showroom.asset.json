@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T10:42:43.740Z",
+  "kind": "illustration",
+  "role": "key-visual",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/002_H5端_服务_BT74b812AoAqr2xQRAkco7oznlb.png",
+    "sha256": "sha256:781d490c1696a9b6403582eeaa13a34c49ca31bd07616a415c79065221d5bfb9",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 205,
+    "y": 151,
+    "width": 630,
+    "height": 337
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/tech-showroom.png",
+    "sha256": "sha256:d67a7845a8fe643273d31d2e48e3e4b33627a44104ec442a00b02e8a40293c2a",
+    "pixelSize": {
+      "width": 630,
+      "height": 337
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

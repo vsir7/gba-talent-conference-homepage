@@ -1,0 +1,20 @@
+{
+  "name": "conference-home",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "node scripts/qa-static.mjs",
+    "qa:evidence": "node scripts/verify-home-evidence.mjs",
+    "qa:schedule-evidence": "node scripts/verify-schedule-evidence.mjs",
+    "test": "node --test",
+    "test:home": "node --test tests/conference-home.test.mjs",
+    "test:schedule": "node --test tests/schedule-model.test.mjs",
+    "test:entry-service": "node --test tests/entry-service.test.mjs",
+    "tokens:build": "node design-system/tokens/build-tokens.mjs",
+    "tokens:check": "node design-system/tokens/build-tokens.mjs --check",
+    "test:design-system": "node --test tests/design-*.test.mjs",
+    "start": "node server.mjs"
+  }
+}

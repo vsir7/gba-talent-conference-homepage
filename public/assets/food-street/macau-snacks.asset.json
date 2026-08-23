@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T09:24:37.126Z",
+  "kind": "photo",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/007_H5端_服务_RBlobbaI5oKkZSxuVk5chDxcnRf.png",
+    "sha256": "sha256:0df34a0feed48d88ddd31cbdbb689db8375a5c3a33f47a0cb44a58903c766d8d",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 456,
+    "y": 980,
+    "width": 323,
+    "height": 159
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/food-street/macau-snacks.png",
+    "sha256": "sha256:66d88aae81d68386592d49db6bb793de5e9ba4299553b13487eb11c6556170e5",
+    "pixelSize": {
+      "width": 323,
+      "height": 159
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

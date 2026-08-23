@@ -1,0 +1,2 @@
+.quick-services a{display:grid;min-width:0;padding:0 2px;border:0;background:transparent;place-items:center;gap:4px;color:var(--color-title-primary);font-size:var(--typography-label-small-font-size);line-height:18px;text-decoration:none}.explore-card[href]{text-decoration:none}
+@media (min-width:414px){.quick-services a{gap:4px}}@media (min-width:640px){.quick-services a{gap:9px;font-size:var(--typography-body-medium-font-size)}}

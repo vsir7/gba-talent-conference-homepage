@@ -1,4 +1,5 @@
 @import "./design-system/tokens/design-tokens.css";
+.entry-steps li:not(:last-child)::before{top:27px!important;left:calc(50% + 24px)!important;width:calc(100% - 48px)!important}.step-art{margin-top:0!important}@media (min-width:640px){.entry-steps li:not(:last-child)::before{top:34px!important;left:calc(50% + 28px)!important;width:calc(100% - 56px)!important}}
 
 *,*::before,*::after{box-sizing:border-box}
 html{font-size:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%;color-scheme:light;background:var(--color-surface-page)}

@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T09:24:36.872Z",
+  "kind": "photo",
+  "role": "key-visual",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/007_H5端_服务_RBlobbaI5oKkZSxuVk5chDxcnRf.png",
+    "sha256": "sha256:0df34a0feed48d88ddd31cbdbb689db8375a5c3a33f47a0cb44a58903c766d8d",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 35,
+    "y": 359,
+    "width": 782,
+    "height": 314
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/food-street/market-scene.png",
+    "sha256": "sha256:114065db1eb06007edcf227a5b143b9c414ee547a44be265617b0a821c57a436",
+    "pixelSize": {
+      "width": 782,
+      "height": 314
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

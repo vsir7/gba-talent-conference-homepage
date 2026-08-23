@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T09:24:37.008Z",
+  "kind": "photo",
+  "role": "content",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/007_H5端_服务_RBlobbaI5oKkZSxuVk5chDxcnRf.png",
+    "sha256": "sha256:0df34a0feed48d88ddd31cbdbb689db8375a5c3a33f47a0cb44a58903c766d8d",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 483,
+    "y": 737,
+    "width": 294,
+    "height": 170
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/food-street/lingnan-chicken.png",
+    "sha256": "sha256:30d2c836f48cbb3abfdabf76ace9addc5743a6c737c90907df3311a804729a64",
+    "pixelSize": {
+      "width": 294,
+      "height": 170
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extractedAt": "2026-08-21T11:43:27.408Z",
+  "kind": "background",
+  "role": "key-visual",
+  "sourcePolicy": "standard-atomic-extraction",
+  "atomicAndRightsConfirmed": true,
+  "transform": "EXIF orientation correction followed by exact integer rectangle crop; no resize or visual adjustment",
+  "source": {
+    "path": "/Users/tongyuhu/Desktop/飞书文档UI图片汇总/006_H5端_服务_EOdabd9pXofGxcxn3zGc1252nti.png",
+    "sha256": "sha256:86745c7cf281ff2e555de25037b8dd17ba59e32fccb4013c3d3c96b5b1f03bb0",
+    "orientedPixelSize": {
+      "width": 852,
+      "height": 1845
+    }
+  },
+  "crop": {
+    "x": 0,
+    "y": 183,
+    "width": 852,
+    "height": 135
+  },
+  "output": {
+    "path": "/Users/tongyuhu/Documents/ChatGPT/dahui/public/assets/service-batch-01/guide-skyline.png",
+    "sha256": "sha256:d03704a035d4b9cdafc09f741b9024f249704c7c9919ef362e9f890f34027980",
+    "pixelSize": {
+      "width": 852,
+      "height": 135
+    }
+  },
+  "dependency": {
+    "sharp": "/Users/tongyuhu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs"
+  }
+}

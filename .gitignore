@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+
+# Generated verification output and local preview scratch files.
+.harness/
+dist/
+tmp/
+
+# Historical deployment bundles and raw design archives are not runtime assets.
+homepage-deploy/
+homepage-deploy.zip
+ui-designs/
+ui-style-exploration/
+.impeccable.md

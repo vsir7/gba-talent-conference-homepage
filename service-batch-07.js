@@ -1,0 +1,1 @@
+const root=document.querySelector('[data-ui-ready]');document.querySelectorAll('[data-back]').forEach(button=>button.addEventListener('click',()=>history.length>1?history.back():location.assign('page-board.html')));if(root)root.dataset.uiReady='true';
