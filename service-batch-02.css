@@ -1,5 +1,8 @@
 @import "./design-system/tokens/design-tokens.css";
 
+/* Route names are self-descriptive; do not show arbitrary Arabic serial badges. */
+.study-route__badge { display: none !important; }
+
 * { box-sizing: border-box; }
 html { color-scheme: light; background: #f8f8ff; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body { min-width: 320px; min-height: 100dvh; margin: 0; color: #121a4a; background: radial-gradient(circle at 83% 5%, rgba(136,109,255,.14), transparent 29%), linear-gradient(180deg,#fbfaff 0%,#f5f4fe 100%); font-family: var(--typography-font-family); }
