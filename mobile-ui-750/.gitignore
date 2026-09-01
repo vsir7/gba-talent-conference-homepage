@@ -1,0 +1,8 @@
+# Local visual-comparison artifacts are reproducible and are not required by the site.
+evidence/
+
+# Normalized design references are source-review inputs, not runtime assets.
+references/normalized-750/
+
+# Asset extraction metadata contains machine-local source paths; the images are the runtime files.
+assets/**/*.asset.json

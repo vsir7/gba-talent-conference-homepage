@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+:root { color-scheme: dark; font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; background: #080914; color: #f5f6ff; }
+html, body { margin: 0; min-height: 100%; }
+body { min-width: 1120px; background: radial-gradient(circle at 80% 0, rgba(83,56,211,.2), transparent 460px), #080914; }
+.board { min-height: 100vh; display: grid; grid-template-columns: 300px minmax(820px, 1fr); }
+.sidebar { position: sticky; top: 0; height: 100vh; overflow: auto; padding: 28px 20px 36px; border-right: 1px solid rgba(151,143,222,.18); background: rgba(9,10,24,.93); }
+.brand { padding: 0 10px 24px; }
+.brand small { color: #8c82ff; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; }
+.brand h1 { margin: 8px 0 6px; font-size: 24px; }
+.brand p { margin: 0; color: #8589a7; font-size: 13px; line-height: 1.6; }
+.nav-group { margin-top: 18px; }
+.nav-group h2 { margin: 0 10px 8px; color: #727793; font-size: 11px; letter-spacing: 2px; }
+.nav-group a { display: flex; gap: 11px; align-items: center; min-height: 42px; padding: 9px 11px; border: 1px solid transparent; border-radius: 11px; color: #b9bdd3; text-decoration: none; font-size: 14px; }
+.nav-group a span { width: 24px; color: #656b88; font-variant-numeric: tabular-nums; }
+.nav-group a:hover { background: rgba(120,99,255,.09); color: #fff; }
+.nav-group a.active { border-color: rgba(133,108,255,.38); background: linear-gradient(90deg, rgba(116,89,255,.24), rgba(56,207,255,.07)); color: #fff; box-shadow: inset 3px 0 #826dff; }
+.workspace { padding: 28px 42px 64px; overflow: auto; }
+.workspace-header { width: 750px; margin: 0 auto 18px; display: flex; align-items: flex-end; justify-content: space-between; }
+.workspace-header h2 { margin: 0 0 5px; font-size: 22px; }
+.workspace-header p { margin: 0; color: #777d9c; font-size: 12px; }
+.viewport-shell { position: relative; width: 790px; min-height: 900px; margin: 0 auto; padding: 20px; border: 1px solid rgba(137,126,218,.24); border-radius: 28px; background: #111326; box-shadow: 0 30px 90px rgba(0,0,0,.48); }
+.viewport-shell::before { content: "750"; position: absolute; top: -9px; right: 25px; padding: 2px 8px; border-radius: 8px; background: #30295f; color: #a99cff; font-size: 10px; }
+iframe { display: block; width: 750px; height: calc(100vh - 115px); min-height: 820px; border: 0; border-radius: 13px; background: #070816; }
+.error { color: #ff879d !important; }

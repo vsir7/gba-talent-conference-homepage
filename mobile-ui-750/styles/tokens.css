@@ -1,0 +1,24 @@
+:root {
+  color-scheme: dark;
+  --canvas: #070816;
+  --canvas-soft: #0d1024;
+  --panel: rgba(22, 25, 54, 0.92);
+  --panel-strong: #171a38;
+  --panel-soft: #11142d;
+  --line: rgba(153, 170, 255, 0.2);
+  --line-bright: rgba(151, 119, 255, 0.55);
+  --text: #f6f7ff;
+  --muted: #a9adc8;
+  --faint: #747b9a;
+  --purple: #d244f4;
+  --purple-bright: #e765ff;
+  --cyan: #33d9ff;
+  --mint: #63f6cc;
+  --pink: #ff2c91;
+  --warning: #ffc461;
+  --danger: #ff6f91;
+  --radius-sm: 12px;
+  --radius-md: 22px;
+  --radius-lg: 32px;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.32);
+}

@@ -1,0 +1,587 @@
+{
+  "generatedAt": "2026-09-01T07:19:33.651Z",
+  "contract": {
+    "cssWidth": 750,
+    "deviceScaleFactor": 1,
+    "browserZoom": 1
+  },
+  "note": "Original files remain immutable. Normalized files are separate 750px comparison baselines.",
+  "entries": [
+    {
+      "pageId": "conference-home",
+      "pageName": "大会首页",
+      "sourceFile": "001-miniapp-conference.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/001-miniapp-conference.png",
+      "normalizedFile": "normalized-750/001-miniapp-conference.png",
+      "normalizedPath": "normalized-750/001-miniapp-conference.png",
+      "source": {
+        "width": 717,
+        "height": 2194,
+        "sha256": "c662a1f25901086fecb3c6757704e4a29844bff5bfa20c6c0737633aa66f5790"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 2295,
+        "sha256": "cedd4f860a22fe53447af275423d8d388102a9516cf609fea3f52311c3a210aa"
+      }
+    },
+    {
+      "pageId": "ai-assistant",
+      "pageName": "AI 助手",
+      "sourceFile": "002-miniapp-conference-detail-01.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/002-miniapp-conference-detail-01.png",
+      "normalizedFile": "normalized-750/002-miniapp-conference-detail-01.png",
+      "normalizedPath": "normalized-750/002-miniapp-conference-detail-01.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "f89c03aabc28153a60be2dee9578e8f6888e80d8f88c0955556f6b4bd4f83fa7"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "fdb6ab27576a2a9a7cd2b6484f17dcbeac1a6b3406521ab9648ed5f28babc5b6"
+      }
+    },
+    {
+      "pageId": "schedule",
+      "pageName": "日程",
+      "sourceFile": "003-miniapp-schedule.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/003-miniapp-schedule.png",
+      "normalizedFile": "normalized-750/003-miniapp-schedule.png",
+      "normalizedPath": "normalized-750/003-miniapp-schedule.png",
+      "source": {
+        "width": 793,
+        "height": 1983,
+        "sha256": "7f3c5bd14d6d496ed951c1ef961f5dc50a8db4147e8e19eb9cc0dae1a6f8e523"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1875,
+        "sha256": "ba85bc2eeabe92c4f6e19455b67b3de01a6d6b6d2d7bd9c2782d7d602e5dcb48"
+      }
+    },
+    {
+      "pageId": "agenda-intro",
+      "pageName": "议程详情 · 简介",
+      "sourceFile": "004-miniapp-schedule-detail-01.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/004-miniapp-schedule-detail-01.png",
+      "normalizedFile": "normalized-750/004-miniapp-schedule-detail-01.png",
+      "normalizedPath": "normalized-750/004-miniapp-schedule-detail-01.png",
+      "source": {
+        "width": 808,
+        "height": 1946,
+        "sha256": "0ba573d6545ef674f1da0d6d076a5a5cc0ba44d504c66debcc175a473015616b"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1806,
+        "sha256": "3087ffdbad1977f70ff35822d7c87728acc2d8dc5c37d1a7a8616b943d9f1543"
+      }
+    },
+    {
+      "pageId": "agenda-guests",
+      "pageName": "议程详情 · 嘉宾",
+      "sourceFile": "005-miniapp-schedule-detail-02.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/005-miniapp-schedule-detail-02.png",
+      "normalizedFile": "normalized-750/005-miniapp-schedule-detail-02.png",
+      "normalizedPath": "normalized-750/005-miniapp-schedule-detail-02.png",
+      "source": {
+        "width": 858,
+        "height": 1834,
+        "sha256": "fedb6d6b2aa49e4556658b85e6f67f1b6b0743163a8458a2e692d862bab483e0"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1603,
+        "sha256": "0efbabd014f895354fc08f99a2a40e733f4bcdb4c982498c1b5345a49ca9c753"
+      }
+    },
+    {
+      "pageId": "agenda-schedule",
+      "pageName": "议程详情 · 议程",
+      "sourceFile": "006-miniapp-schedule-detail-03.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/006-miniapp-schedule-detail-03.png",
+      "normalizedFile": "normalized-750/006-miniapp-schedule-detail-03.png",
+      "normalizedPath": "normalized-750/006-miniapp-schedule-detail-03.png",
+      "source": {
+        "width": 810,
+        "height": 1942,
+        "sha256": "63087920742a0fcf1c5ec515bf6a0459ed899379fe47208fb15c1365d706a95b"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1798,
+        "sha256": "f0be8c0d915b3b458e4384cf136591bfa430a1f475f9f208dcb4247dc447d69f"
+      }
+    },
+    {
+      "pageId": "agenda-ticket-notice",
+      "pageName": "议程详情 · 抢票须知",
+      "sourceFile": "007-miniapp-schedule-detail-04.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/007-miniapp-schedule-detail-04.png",
+      "normalizedFile": "normalized-750/007-miniapp-schedule-detail-04.png",
+      "normalizedPath": "normalized-750/007-miniapp-schedule-detail-04.png",
+      "source": {
+        "width": 819,
+        "height": 1920,
+        "sha256": "c8ef89f55ae8a7af546dafbae7e50ef65721e305da7860b64d0e06abc6ba2078"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1758,
+        "sha256": "fb5c6a748eacadc3909d79f3acfb9fe846bfd12216dbd3d13c9ee303e7623954"
+      }
+    },
+    {
+      "pageId": "registration-picker",
+      "pageName": "选择报名信息",
+      "sourceFile": "008-miniapp-schedule-detail-05.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/008-miniapp-schedule-detail-05.png",
+      "normalizedFile": "normalized-750/008-miniapp-schedule-detail-05.png",
+      "normalizedPath": "normalized-750/008-miniapp-schedule-detail-05.png",
+      "source": {
+        "width": 859,
+        "height": 1831,
+        "sha256": "cecbad86bd7c708c9b8d9216d14a48b6f287c5137b7bd6af676b3ba0693c73b1"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1598,
+        "sha256": "1e06acfffe8a0c09c57f4a40f2c1f546ac9e6b33edbc73ca20aabd16512533e3"
+      }
+    },
+    {
+      "pageId": "phone-authorization",
+      "pageName": "手机号授权",
+      "sourceFile": "009-miniapp-schedule-detail-06.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/009-miniapp-schedule-detail-06.png",
+      "normalizedFile": "normalized-750/009-miniapp-schedule-detail-06.png",
+      "normalizedPath": "normalized-750/009-miniapp-schedule-detail-06.png",
+      "source": {
+        "width": 855,
+        "height": 1840,
+        "sha256": "a5f9ba637d527f1065991d4128a08e5275f45b82201165f1ad54678c44e9a973"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1614,
+        "sha256": "c9960e9330aa459f8e881db61685ce7e3234a10b319df0412ab0ba4142c6dff4"
+      }
+    },
+    {
+      "pageId": "registration-review",
+      "pageName": "报名审核",
+      "sourceFile": "010-miniapp-schedule-detail-07.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/010-miniapp-schedule-detail-07.png",
+      "normalizedFile": "normalized-750/010-miniapp-schedule-detail-07.png",
+      "normalizedPath": "normalized-750/010-miniapp-schedule-detail-07.png",
+      "source": {
+        "width": 851,
+        "height": 1848,
+        "sha256": "a55b61fb3a1f5d324b2b05e0fb01d63dd0b17618e1c4f5b8f0b17e4fcdf62709"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1628,
+        "sha256": "81edcb3a32030ba99d6affc7d52f805b21427cfd1ec67ce3819cb919f301d015"
+      }
+    },
+    {
+      "pageId": "entry-pass-schedule",
+      "pageName": "入场凭证 · 日程",
+      "sourceFile": "011-miniapp-schedule-detail-08.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/011-miniapp-schedule-detail-08.png",
+      "normalizedFile": "normalized-750/011-miniapp-schedule-detail-08.png",
+      "normalizedPath": "normalized-750/011-miniapp-schedule-detail-08.png",
+      "source": {
+        "width": 854,
+        "height": 1842,
+        "sha256": "8fad94f84c2a4b4e5c3638ec1c4268fc2739a313b496f3851eee67c794f98953"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1617,
+        "sha256": "f802f0bbcd5456a6f2001c20ffe1373b671feab7cad395f39a25564bbdd9d332"
+      }
+    },
+    {
+      "pageId": "news",
+      "pageName": "资讯",
+      "sourceFile": "012-miniapp-news.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/012-miniapp-news.png",
+      "normalizedFile": "normalized-750/012-miniapp-news.png",
+      "normalizedPath": "normalized-750/012-miniapp-news.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "87bd7c5e881fc2cfe54bc2d2f09676ed8ce75d244531ab0c5e729968af024052"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "a9f2bd9c10dff55801b0aff20d723d1a9d1a560474ba58eb3802a2a15290b43f"
+      }
+    },
+    {
+      "pageId": "news-detail",
+      "pageName": "资讯详情",
+      "sourceFile": "013-miniapp-news-detail-01.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/013-miniapp-news-detail-01.png",
+      "normalizedFile": "normalized-750/013-miniapp-news-detail-01.png",
+      "normalizedPath": "normalized-750/013-miniapp-news-detail-01.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "da4cace2c7ce04bf85f2c0fd295188205a2eccb858d7e5e25fde0bc470e15ae3"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "de911ff8f12d03863e37c6232881be13b9b8e286627f7b639d0a36b9e75024b0"
+      }
+    },
+    {
+      "pageId": "service-hall",
+      "pageName": "服务大厅",
+      "sourceFile": "014-miniapp-service.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/014-miniapp-service.png",
+      "normalizedFile": "normalized-750/014-miniapp-service.png",
+      "normalizedPath": "normalized-750/014-miniapp-service.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "073000cf8930568dfd0c7883abf78ec823ea7fbb50caee97c796e416832ad8f8"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "a3aa12c38d2ddc1cfc5377f2875e0ae6194e7d1573b26f9ccab475a436936975"
+      }
+    },
+    {
+      "pageId": "entry-pass-service",
+      "pageName": "入场凭证 · 服务",
+      "sourceFile": "015-miniapp-service-detail-01.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/015-miniapp-service-detail-01.png",
+      "normalizedFile": "normalized-750/015-miniapp-service-detail-01.png",
+      "normalizedPath": "normalized-750/015-miniapp-service-detail-01.png",
+      "source": {
+        "width": 854,
+        "height": 1842,
+        "sha256": "8fad94f84c2a4b4e5c3638ec1c4268fc2739a313b496f3851eee67c794f98953"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1617,
+        "sha256": "f802f0bbcd5456a6f2001c20ffe1373b671feab7cad395f39a25564bbdd9d332"
+      }
+    },
+    {
+      "pageId": "venue-guide",
+      "pageName": "场地导览",
+      "sourceFile": "016-miniapp-service-detail-02.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/016-miniapp-service-detail-02.png",
+      "normalizedFile": "normalized-750/016-miniapp-service-detail-02.png",
+      "normalizedPath": "normalized-750/016-miniapp-service-detail-02.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "147d2962980754d8cc5b425e272d6631bf42a69496a6e22c9244ba7c89761b49"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "9b33d4f56814dd0d55579c211fd823711ce9b19456bdf26364526981f1116d09"
+      }
+    },
+    {
+      "pageId": "transportation",
+      "pageName": "交通接驳",
+      "sourceFile": "017-miniapp-service-detail-03.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/017-miniapp-service-detail-03.png",
+      "normalizedFile": "normalized-750/017-miniapp-service-detail-03.png",
+      "normalizedPath": "normalized-750/017-miniapp-service-detail-03.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "b03fa229bfa3c57aa7c7b7db6a0ea373a87cb0cddfdcd4623dd02a6039ad94e6"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "ba065d6f05bbf8a1521bdcbd9da2e1ed156ca6f16253c0cb919e8c6332b30aab"
+      }
+    },
+    {
+      "pageId": "dining-service",
+      "pageName": "餐饮服务",
+      "sourceFile": "018-miniapp-service-detail-04.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/018-miniapp-service-detail-04.png",
+      "normalizedFile": "normalized-750/018-miniapp-service-detail-04.png",
+      "normalizedPath": "normalized-750/018-miniapp-service-detail-04.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "ae5cb8c5fa7f44fa18a1a8e9f36d42f53c6f5d7adefb2c209e9f2434168ca8a6"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "eccc5676220a26a914fd674be0e1b0b6c9246d1ba1c5f016e35404f584a3118d"
+      }
+    },
+    {
+      "pageId": "carnival",
+      "pageName": "嘉年华",
+      "sourceFile": "019-miniapp-service-detail-05.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/019-miniapp-service-detail-05.png",
+      "normalizedFile": "normalized-750/019-miniapp-service-detail-05.png",
+      "normalizedPath": "normalized-750/019-miniapp-service-detail-05.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "555df6c9340bf0f4434f5891ce8123ed2d6b6b2aed7455f7ab3c29e277f1e852"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "5f845d0d8ec3354c9c129d7a38a86332c4bbcb6bb713dbca23657f3ae96b3a1d"
+      }
+    },
+    {
+      "pageId": "food-street",
+      "pageName": "美食街区",
+      "sourceFile": "020-miniapp-service-detail-06.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/020-miniapp-service-detail-06.png",
+      "normalizedFile": "normalized-750/020-miniapp-service-detail-06.png",
+      "normalizedPath": "normalized-750/020-miniapp-service-detail-06.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "ff53334bfe5e43533030ef4579669a3e3ec073dd255670486f40748b2806fae1"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "1fe8e0a49d19fbfac43789d35ca5d908ab8a8cf85a52cf1ec3d5801262c99910"
+      }
+    },
+    {
+      "pageId": "accommodation",
+      "pageName": "住宿信息",
+      "sourceFile": "021-miniapp-service-detail-07.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/021-miniapp-service-detail-07.png",
+      "normalizedFile": "normalized-750/021-miniapp-service-detail-07.png",
+      "normalizedPath": "normalized-750/021-miniapp-service-detail-07.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "40d5d119bb1a8ab48ae6c2ecaae81c22aaafb55240ac48f88a276798a7d701d0"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "de715f6ceca966fe7c2f4c5e7398e969f5e09daabd2f0aa480c12492bd1030f6"
+      }
+    },
+    {
+      "pageId": "youth-study",
+      "pageName": "青年人才研学",
+      "sourceFile": "022-miniapp-service-detail-08.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/022-miniapp-service-detail-08.png",
+      "normalizedFile": "normalized-750/022-miniapp-service-detail-08.png",
+      "normalizedPath": "normalized-750/022-miniapp-service-detail-08.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "f28789965dcb02f8dd846101ee75025184ac04f9a0e407357d32d85ef8fe41f3"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "03ecdc5a350af91b548644e6403864b4c6adf3ef3cffe590ba3d3523f9bcf8b5"
+      }
+    },
+    {
+      "pageId": "faq",
+      "pageName": "常见问题",
+      "sourceFile": "023-miniapp-service-detail-09.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/023-miniapp-service-detail-09.png",
+      "normalizedFile": "normalized-750/023-miniapp-service-detail-09.png",
+      "normalizedPath": "normalized-750/023-miniapp-service-detail-09.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "46641293e2fed4b118fa24de25f6faedab5097bf0bdb0b2a5d02bddf84583242"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "4da60b048b476c2185a5a9071657382d28576b63d66d17128c4b03054852dd34"
+      }
+    },
+    {
+      "pageId": "profile",
+      "pageName": "我的 HTDC",
+      "sourceFile": "024-miniapp-profile.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/024-miniapp-profile.png",
+      "normalizedFile": "normalized-750/024-miniapp-profile.png",
+      "normalizedPath": "normalized-750/024-miniapp-profile.png",
+      "source": {
+        "width": 916,
+        "height": 1717,
+        "sha256": "32aef995067a4bde816eecffc5e67acfc012f4f3cfef68aa843339b6b041c8a7"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1406,
+        "sha256": "dd7f66e2088003e76c5daa2f826862b8fa288e872b4554490ce101ee8f519b5c"
+      }
+    },
+    {
+      "pageId": "notifications",
+      "pageName": "消息中心",
+      "sourceFile": "025-miniapp-profile-detail-01.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/025-miniapp-profile-detail-01.png",
+      "normalizedFile": "normalized-750/025-miniapp-profile-detail-01.png",
+      "normalizedPath": "normalized-750/025-miniapp-profile-detail-01.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "d3edf03acff062d1a0431b774a3652512f768f01f0702ac289d78a93c62aec7a"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "7ea1dae9a491a679145222173d6347ac6f73b8030f4e2d0fd20da2f422fc4e1a"
+      }
+    },
+    {
+      "pageId": "my-schedule",
+      "pageName": "我的日程",
+      "sourceFile": "026-miniapp-profile-detail-02.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/026-miniapp-profile-detail-02.png",
+      "normalizedFile": "normalized-750/026-miniapp-profile-detail-02.png",
+      "normalizedPath": "normalized-750/026-miniapp-profile-detail-02.png",
+      "source": {
+        "width": 927,
+        "height": 1697,
+        "sha256": "b086005f9bfc17cf74fd40475972bf4230316399203f064b53ab1695b2343cff"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1373,
+        "sha256": "1b65905e7bffe53aa6cea6750ea6dfe75d7d4726e1374bc4377d5e8242a07ae8"
+      }
+    },
+    {
+      "pageId": "entry-pass-profile",
+      "pageName": "入场凭证 · 我的",
+      "sourceFile": "027-miniapp-profile-detail-03.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/027-miniapp-profile-detail-03.png",
+      "normalizedFile": "normalized-750/027-miniapp-profile-detail-03.png",
+      "normalizedPath": "normalized-750/027-miniapp-profile-detail-03.png",
+      "source": {
+        "width": 854,
+        "height": 1842,
+        "sha256": "8fad94f84c2a4b4e5c3638ec1c4268fc2739a313b496f3851eee67c794f98953"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1617,
+        "sha256": "f802f0bbcd5456a6f2001c20ffe1373b671feab7cad395f39a25564bbdd9d332"
+      }
+    },
+    {
+      "pageId": "personal-info",
+      "pageName": "个人信息",
+      "sourceFile": "028-miniapp-profile-detail-04.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/028-miniapp-profile-detail-04.png",
+      "normalizedFile": "normalized-750/028-miniapp-profile-detail-04.png",
+      "normalizedPath": "normalized-750/028-miniapp-profile-detail-04.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "2018c5c55c639c97b7a30cd7f92ed938ed7400ce50e8ac2cb37b20c4b991a10f"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "ecc452792a6f8c9f98fb64dd43a6e99b4ccaf86b20bdd3e50ae10a625c967a6b"
+      }
+    },
+    {
+      "pageId": "personal-info-edit",
+      "pageName": "编辑个人信息",
+      "sourceFile": "029-miniapp-profile-detail-05.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/029-miniapp-profile-detail-05.png",
+      "normalizedFile": "normalized-750/029-miniapp-profile-detail-05.png",
+      "normalizedPath": "normalized-750/029-miniapp-profile-detail-05.png",
+      "source": {
+        "width": 768,
+        "height": 2048,
+        "sha256": "fed19cb2df82e50fb939700db05aba885a2d0ada7f17aff8c5b64fa71a15c6c1"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 2000,
+        "sha256": "955f69bec6ab86cd3b6c226b7cec727e96953c0678853d6b91ce44bfd259f640"
+      }
+    },
+    {
+      "pageId": "meal-benefits",
+      "pageName": "餐饮权益",
+      "sourceFile": "030-miniapp-profile-detail-06.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/030-miniapp-profile-detail-06.png",
+      "normalizedFile": "normalized-750/030-miniapp-profile-detail-06.png",
+      "normalizedPath": "normalized-750/030-miniapp-profile-detail-06.png",
+      "source": {
+        "width": 853,
+        "height": 1844,
+        "sha256": "acfde382b075f8e487e5a54784f8846580c73296e42d13695f09fd5fad77c248"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1621,
+        "sha256": "90159bf46faec2e50550faab3c960a5ff9f662c4f4abf43cf9480d4c86b30807"
+      }
+    },
+    {
+      "pageId": "meal-voucher",
+      "pageName": "我的餐饮权益",
+      "sourceFile": "031-miniapp-profile-detail-07.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/031-miniapp-profile-detail-07.png",
+      "normalizedFile": "normalized-750/031-miniapp-profile-detail-07.png",
+      "normalizedPath": "normalized-750/031-miniapp-profile-detail-07.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "d4522af27e336d89d497e568818f6c43caecccc17afbae8704fd1ca731e53320"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "cf13f0adc5c7cd6dc968f675a55e9f3ca3bcc1b195dd64bea30bd9b8ed66e98b"
+      }
+    },
+    {
+      "pageId": "contact-staff",
+      "pageName": "联系会务",
+      "sourceFile": "032-miniapp-profile-detail-08.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/032-miniapp-profile-detail-08.png",
+      "normalizedFile": "normalized-750/032-miniapp-profile-detail-08.png",
+      "normalizedPath": "normalized-750/032-miniapp-profile-detail-08.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "0761cc53a7243bdf7c7ee98e94e38e71782644e11497e31875c3a03cbd05410b"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "3d698793275963fa17bf6ea5344d5837e83bada1a02ff93b661678ae15f7f3bd"
+      }
+    }
+  ]
+}

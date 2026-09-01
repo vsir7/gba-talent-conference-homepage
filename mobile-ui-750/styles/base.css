@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: #03040b; }
+body {
+  width: 750px;
+  min-width: 750px;
+  color: var(--text);
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button, input, textarea { font: inherit; }
+button { color: inherit; }
+img { display: block; max-width: 100%; }
+.mobile-canvas {
+  width: 750px;
+  min-width: 750px;
+  max-width: 750px;
+  min-height: 100vh;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 88px 260px, rgba(80, 77, 255, 0.18), transparent 260px),
+    radial-gradient(circle at 690px 580px, rgba(5, 202, 255, 0.11), transparent 300px),
+    var(--canvas);
+}
+.screen { position: relative; min-height: max(100vh, var(--target-height, 100vh)); padding-bottom: 136px; overflow: hidden; }
+.status-bar { height: 50px; padding: 14px 38px 0; display: flex; align-items: center; justify-content: space-between; font-size: 22px; font-weight: 650; letter-spacing: .2px; }
+.status-icons { display: flex; align-items: flex-end; gap: 7px; height: 20px; }
+.status-icons i { display: block; width: 5px; height: 10px; border-radius: 4px; background: currentColor; box-shadow: 7px -3px 0 currentColor, 14px -7px 0 currentColor; margin-right: 17px; }
+.status-icons i + i { width: 22px; height: 12px; margin: 0; border: 3px solid currentColor; border-top-color: transparent; border-left-color: transparent; transform: rotate(45deg); background: none; box-shadow: none; }
+.status-icons b { width: 28px; height: 14px; border: 2px solid currentColor; border-radius: 4px; position: relative; }
+.status-icons b::after { content: ""; position: absolute; inset: 2px; right: 5px; border-radius: 2px; background: currentColor; }
+.page-content { padding: 18px 32px 48px; }
+.page-subtitle { margin: 0 0 28px; color: var(--muted); font-size: 24px; line-height: 1.65; }
+.page-section { margin-top: 34px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 22px; }
+.section-heading h2 { margin: 0; font-size: 32px; line-height: 1.25; letter-spacing: .5px; }
+.section-heading span { color: var(--purple-bright); font-size: 22px; }
+.section-copy { margin: 0; color: #c9cce0; font-size: 25px; line-height: 1.8; white-space: pre-line; }
+.card-list { display: grid; gap: 20px; }

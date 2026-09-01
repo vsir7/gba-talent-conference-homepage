@@ -14,6 +14,7 @@
 - `index.html`：大会首页
 - `schedule.html`：大会日程
 - `entry-service.html`：入场服务
+- `mobile-ui-750/`：32 个页面的 750px 移动端统一预览看板
 
 ## 主要文件
 
