@@ -29,7 +29,7 @@ try {
     links: document.querySelectorAll('[data-page-link]').length,
     iframeWidth: document.querySelector('[data-board-frame]')?.getBoundingClientRect().width,
   }));
-  if (boardState.links !== 32 || boardState.iframeWidth !== 750) failed = true;
+  if (boardState.links !== PAGES.length || boardState.iframeWidth !== 750) failed = true;
   await board.close();
 
   for (const pageInfo of PAGES) {

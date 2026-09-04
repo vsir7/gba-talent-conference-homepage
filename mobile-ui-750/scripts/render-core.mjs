@@ -19,7 +19,8 @@ function statusBar() {
 
 function pageHeader(page, data) {
   const back = data.back === false ? '<span class="header-spacer"></span>' : '<button class="icon-button back-button" type="button" data-action="back" aria-label="返回">‹</button>';
-  const action = data.headerAction ? `<button class="header-action" type="button" data-action="header-action">${escapeHtml(data.headerAction)}</button>` : '<span class="header-spacer"></span>';
+  const actionBehavior = data.headerRoute ? `data-route="${escapeHtml(data.headerRoute)}"` : 'data-action="header-action"';
+  const action = data.headerAction ? `<button class="header-action" type="button" ${actionBehavior}>${escapeHtml(data.headerAction)}</button>` : '<span class="header-spacer"></span>';
   return `<header class="page-header">${back}<h1>${escapeHtml(data.title || page.name)}</h1>${action}</header>`;
 }
 
@@ -100,8 +101,27 @@ function renderAgenda(data) {
 }
 
 function renderSheet(data) {
-  return `<div class="dimmed-event">${image(data.hero, 'dimmed-hero')}<span class="tag">创新大讲堂</span><h2>${escapeHtml(data.dimmedTitle)}</h2><p>10月25日 09:30—11:30</p></div>
-    <section class="bottom-sheet ticket-sheet" role="dialog" aria-modal="true"><i class="sheet-handle"></i><button type="button" data-action="back" class="sheet-close" aria-label="关闭">×</button><h2>${escapeHtml(data.sheetTitle)}</h2><h3>选择报名时段</h3><div class="slot-list">${data.slots.map((slot, index) => `<button type="button" data-action="select-slot" class="slot-choice ${index === 0 ? 'selected' : ''}"><span class="choice-dot">${index === 0 ? '✓' : ''}</span><b>${escapeHtml(slot.label)}<small>${escapeHtml(slot.period)}</small></b><strong>${escapeHtml(slot.time)}</strong><em>余${escapeHtml(slot.remaining)}张</em></button>`).join('')}</div><h3>选择报名类型</h3><div class="type-list">${data.types.map((type, index) => `<button type="button" data-action="select-type" class="type-choice ${index === 0 ? 'selected' : ''}"><span class="choice-dot">${index === 0 ? '✓' : ''}</span>${escapeHtml(type)}</button>`).join('')}</div><div class="ticket-countdown"><span>距报名截止</span><strong>01 天 08 : 24 : 36</strong></div>${button(data.action, 'primary-button', 'data-route="phone-authorization"')}</section>`;
+  const slots = data.slots.map((slot, index) => `<button type="button" data-action="select-slot" class="slot-card${index === 0 ? ' selected' : ''}">
+    <span class="choice-dot">${index === 0 ? '✓' : ''}</span><strong class="slot-time">${escapeHtml(slot.time)}</strong><time>${escapeHtml(slot.date)}</time><em>余<b>${escapeHtml(slot.remaining)}</b>张</em>
+    <span class="slot-detail"><span>主题：${escapeHtml(slot.topic)}</span><span class="slot-speaker"><i>发起人：</i>${image(slot.speakerImage, 'slot-speaker-avatar', slot.speaker)}<small>${escapeHtml(slot.speaker)}</small></span></span>
+  </button>`).join('');
+  return `<div class="dimmed-event">${image(data.hero, 'dimmed-hero')}</div>
+    <section class="bottom-sheet ticket-sheet" role="dialog" aria-modal="true"><i class="sheet-handle"></i><button type="button" data-action="back" class="sheet-close" aria-label="关闭">×</button><h2>${escapeHtml(data.sheetTitle)}</h2><h3>选择报名时段</h3><div class="slot-list">${slots}</div><h3>选择报名类型</h3><div class="type-list">${data.types.map((type, index) => `<button type="button" data-action="select-type" data-registration-route="${index === 0 ? 'phone-authorization' : 'speaker-registration'}" class="type-choice ${index === 0 ? 'selected' : ''}"><span class="choice-dot">${index === 0 ? '✓' : ''}</span>${escapeHtml(type)}</button>`).join('')}</div><div class="ticket-countdown"><span>距报名截止</span><strong><b>0 1</b><small>天</small><b>0 8</b><i>:</i><b>2 4</b><i>:</i><b>3 6</b></strong></div>${button(data.action, 'primary-button', 'data-action="registration-submit"')}</section>`;
+}
+
+function renderSpeakerForm(data) {
+  const outlineRows = data.outlines.map((placeholder, index) => `<div class="outline-row"><span>${index + 1}</span><input name="outline[]" aria-label="分享要点 ${index + 1}" placeholder="${escapeHtml(placeholder)}"></div>`).join('');
+  return `<p class="speaker-form-subtitle">${escapeHtml(data.subtitle)}</p>
+    <section class="speaker-session-block"><h2>已选报名时段</h2><article class="speaker-session-card">${image(data.session.speakerImage, 'speaker-session-avatar', data.session.speaker)}<div><h3>${escapeHtml(data.session.title)}</h3><p>${escapeHtml(data.session.date)}　${escapeHtml(data.session.time)}</p><p>主讲人：${escapeHtml(data.session.speaker)}</p></div></article></section>
+    <form class="speaker-form">
+      <h2>分享内容</h2>
+      <label class="speaker-field"><span>分享主题 <b>*</b></span><input name="subject" required placeholder="请输入本次分享的主题"></label>
+      <label class="speaker-field"><span>内容简介 <b>*</b></span><span class="speaker-textarea"><textarea name="introduction" maxlength="300" required placeholder="请介绍分享背景、主要内容、核心观点及观众收获"></textarea><small><i data-intro-count>0</i>/300</small></span></label>
+      <section class="speaker-outline"><h3>内容提纲 <b>*</b></h3><div data-outline-list>${outlineRows}</div><button type="button" data-action="add-outline">＋&nbsp; 添加分享要点</button><small>最多添加5项</small></section>
+      <section class="speaker-material"><h3>分享材料</h3><label class="speaker-upload"><input type="file" name="material" accept=".ppt,.pptx,.pdf"><svg viewBox="0 0 64 72" aria-hidden="true"><path d="M13 4h25l13 13v47a4 4 0 0 1-4 4H13a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4Z"/><path d="M38 4v15h13M30 52V29m-9 9 9-9 9 9"/></svg><strong data-upload-label>点击上传分享材料</strong><span>支持 PPT、PPTX、PDF，可提交初稿</span></label></section>
+      <button type="submit" class="primary-button">提交审核</button>
+      <p class="speaker-submit-note">提交后将进入大会审核，审核结果会通过消息通知。</p>
+    </form>`;
 }
 
 function renderModal(data) {
@@ -159,8 +179,8 @@ function renderServiceStory(data) {
   }
 
   if (data.layout === 'carnival') {
-    const cards = data.storyCards.map((card) => `<article>${image(card.image, 'carnival-card-image', card.title)}<div><h3>${escapeHtml(card.title)}</h3><p>${escapeHtml(card.copy)}</p></div>${action(card)}</article>`).join('');
-    return `<div class="service-story service-story--carnival"><section class="story-hero">${back}${image(data.hero, 'story-hero-image', '')}<div><h2>${escapeHtml(data.storyTitle)}</h2><p>${escapeHtml(data.storySubtitle)}</p></div></section>${sectionTitle(data.sectionTitle)}<div class="carnival-grid">${cards}</div><section class="carnival-cta"><div aria-hidden="true">🎁</div><span><h2>打卡集章 · 赢取好礼</h2><p>参与互动集章，兑换大会限定礼品！</p></span><button type="button" data-route="schedule">立即参与 ›</button></section></div>`;
+    const cards = data.storyCards.map((card, index) => `<article class="carnival-card${index === 0 ? ' featured' : ''}">${image(card.image, 'carnival-card-image', card.title)}<h3>${escapeHtml(card.title)}</h3></article>`).join('');
+    return `<div class="service-story service-story--carnival"><header class="carnival-mast">${back}<div><h2>${escapeHtml(data.storyTitle)}</h2><p>${escapeHtml(data.storySubtitle)}</p></div><span aria-hidden="true"></span></header><section class="carnival-banner">${image(data.hero, 'carnival-banner-image', '')}<div><h2>${escapeHtml(data.bannerTitle)}</h2><p>${escapeHtml(data.bannerSubtitle)}</p></div></section><h2 class="story-section-title"><i></i>${escapeHtml(data.sectionTitle)}<i></i></h2><div class="carnival-grid">${cards}</div></div>`;
   }
 
   if (data.layout === 'food') {
@@ -191,7 +211,65 @@ function renderNotifications(data) {
 }
 
 function renderProfileInfo(data) {
-  return `<section class="info-identity">${image(data.avatar, 'profile-avatar', data.name)}<div><h2>${escapeHtml(data.name)}</h2><span>✦ ${escapeHtml(data.badge)}</span></div></section><section class="info-records">${data.rows.map(([label, value, icon]) => `<button type="button" data-route="personal-info-edit"><i>${escapeHtml(icon)}</i><span>${escapeHtml(label)}</span><b>${escapeHtml(value)}</b><em>›</em></button>`).join('')}</section>`;
+  const icon = (name) => {
+    const paths = {
+      camera: '<path d="M9 13h7l3-5h10l3 5h7a5 5 0 0 1 5 5v19a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V18a5 5 0 0 1 5-5Zm15 7a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm0 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"/>',
+      medal: '<path d="m16 4 8 5 8-5 5 9-4 8 5 5-7 4-1 12-6-5-6 5-1-12-7-4 5-5-4-8 5-9Zm8 9-4 8 4-2 4 2-4-8Z"/>',
+      pen: '<path d="m8 35 3-11L32 3l10 10-21 21-13 1Zm8-10 5 5 15-15-5-5-15 15Zm-9 14 10-2-8-8-2 10Z"/>',
+      'id-card': '<path d="M4 10h40v29H4V10Zm5 5v19h30V15H9Zm7 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm-5 14c1-4 9-4 10 0H11Zm14-11h11v3H25v-3Zm0 7h11v3H25v-3Z"/>',
+      shield: '<path d="M24 3c6 5 12 6 18 8v12c0 11-7 18-18 23C13 41 6 34 6 23V11c6-2 12-3 18-8Zm0 12a6 6 0 0 0-3 11v7h6v-7a6 6 0 0 0-3-11Z"/>',
+      phone: '<path d="M11 5 5 10c0 17 16 33 33 33l5-6-9-8-5 5c-6-3-11-8-14-14l5-5-9-10Zm23 2c7 2 12 8 13 15h-4c-1-5-5-10-10-11l1-4Zm-2 7c4 1 7 4 8 9h-4c0-2-2-4-5-5l1-4Z"/>',
+      mail: '<path d="M4 11h40v28H4V11Zm5 5 15 11 15-11H9Zm30 18V21L24 32 9 21v13h30Z"/>',
+      location: '<path d="M24 3c11 0 19 8 19 18 0 12-19 25-19 25S5 33 5 21C5 11 13 3 24 3Zm0 10a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm-4 4h8v8h-8v-8Z"/>',
+      building: '<path d="M7 8h19v35H7V8Zm23 10h12v25H30V18ZM12 14v5h5v-5h-5Zm0 9v5h5v-5h-5Zm0 9v5h5v-5h-5Zm10-18v5h-4v-5h4Zm0 9v5h-4v-5h4Zm0 9v5h-4v-5h4Zm13-8v5h4v-5h-4Zm0 9v5h4v-5h-4Z"/>',
+      briefcase: '<path d="M15 10V6h18v4h9a5 5 0 0 1 5 5v24a5 5 0 0 1-5 5H6a5 5 0 0 1-5-5V15a5 5 0 0 1 5-5h9Zm5 0h8V9h-8v1ZM6 17v8h14v-3h8v3h14v-8H6Zm16 9v5h4v-5h-4ZM6 31v8h36v-8H28v4h-8v-4H6Z"/>',
+    };
+    return `<svg viewBox="0 0 48 48" aria-hidden="true">${paths[name] || ''}</svg>`;
+  };
+  return `<section class="info-records">${data.rows.map((row) => `<div class="info-record"><i class="tone-${escapeHtml(row.tone)}">${icon(row.icon)}</i><span>${escapeHtml(row.label)}</span>${row.photo ? image(row.photo, 'info-photo', '证件照') : `<b>${escapeHtml(row.value)}</b>`}</div>`).join('')}</section>`;
+}
+
+function renderRoleSelection(data) {
+  const paths = {
+    person: '<circle cx="24" cy="15" r="10"/><path d="M7 43c0-10 7-16 17-16s17 6 17 16H7Z"/>',
+    company: '<path d="M6 7h22v36H6V7Zm26 13h10v23H32V20ZM12 14v5h5v-5h-5Zm0 10v5h5v-5h-5Zm0 10v5h5v-5h-5Zm10-20v5h-4v-5h4Zm0 10v5h-4v-5h4Zm14 3v6h3v-6h-3Z"/>',
+    trophy: '<path d="M13 6h22v8h7v5c0 8-5 13-12 13-1 3-3 5-4 6v3h8v4H14v-4h8v-3c-2-2-3-4-4-6C11 32 6 27 6 19v-5h7V6Zm0 12H10v1c0 4 2 7 5 8-1-3-2-6-2-9Zm22 0c0 3-1 6-2 9 3-1 5-4 5-8v-1h-3Z"/>',
+    expert: '<path d="m4 17 20-11 20 11-20 11L4 17Zm8 6 12 7 12-7v11c-7 7-17 7-24 0V23Zm28-3h3v15h-3V20Z"/>',
+    government: '<path d="m24 4 19 10v4H5v-4L24 4ZM9 22h6v15H9V22Zm12 0h6v15h-6V22Zm12 0h6v15h-6V22ZM5 40h38v5H5v-5Z"/>',
+    guest: '<circle cx="19" cy="15" r="9"/><path d="M5 40c1-10 6-15 14-15 5 0 9 2 11 5l4-3 2 6 7 1-5 5 1 7-7-4-6 4 1-7-3-3c-2 3-3 6-3 10H5v-6Z"/>',
+    staff: '<path d="M17 4h14v6h8a5 5 0 0 1 5 5v28H4V15a5 5 0 0 1 5-5h8V4Zm4 4v5h6V8h-6Zm3 11a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm-10 19h20c-2-7-18-7-20 0Z"/>',
+    media: '<path d="M15 19a9 9 0 0 1 18 0v10a9 9 0 0 1-18 0V19Zm-6 8h4v2c0 7 5 12 11 12s11-5 11-12v-2h4v2c0 8-6 15-13 16v4h7v4H15v-4h7v-4C14 44 9 37 9 29v-2Z"/>',
+  };
+  const roles = data.roles.map((role) => {
+    const selected = role.label === data.selectedRole;
+    return `<button type="button" class="role-choice${selected ? ' selected' : ''}" data-action="select-role" data-role-value="${escapeHtml(role.label)}" role="radio" aria-checked="${selected}"><i class="tone-${escapeHtml(role.tone)}"><svg viewBox="0 0 48 48" aria-hidden="true">${paths[role.icon] || ''}</svg></i><span>${escapeHtml(role.label)}</span><b class="role-radio" aria-hidden="true"></b></button>`;
+  }).join('');
+  return `<section class="role-panel" role="radiogroup" aria-label="参会角色">${roles}</section><div class="role-actions"><button type="button" class="primary-button" data-route="profile-completion">下一步</button><button type="button" class="role-skip" data-route="personal-info">跳过</button></div>`;
+}
+
+function renderProfileCompletion(data) {
+  return `<p class="completion-lead">请完善以下信息</p>
+    <section class="current-role"><span>当前参会角色</span><b>${escapeHtml(data.currentRole)}</b></section>
+    <form class="profile-completion-form">
+      <section class="completion-section basic-information"><h2>基础信息</h2>
+        <label class="completion-photo"><span>证件照 <b>*</b></span><span class="photo-upload"><input type="file" name="photo" accept="image/*" required><i aria-hidden="true">▣</i><strong data-profile-upload-label>上传照片</strong><small>两寸证件照</small></span></label>
+        <label class="completion-row"><span>姓名 <b>*</b></span><input name="fullName" required placeholder="请输入姓名"></label>
+        <label class="completion-row muted-row"><span>手机号 <b>*</b></span><span class="phone-value"><strong>138****1024</strong><small>微信授权手机号</small></span><input type="hidden" name="phone" value="138****1024"></label>
+        <label class="completion-row"><span>邮箱 <b>*</b></span><input type="email" name="email" required placeholder="请输入邮箱"></label>
+        <label class="completion-row"><span>证件类型 <b>*</b></span><select name="idType" required><option value="">请选择证件类型</option><option>居民身份证</option><option>护照</option></select></label>
+        <label class="completion-row"><span>证件号码 <b>*</b></span><input name="idNumber" required placeholder="请输入证件号码"></label>
+      </section>
+      <section class="completion-section role-information"><h2>角色信息</h2>
+        <label class="completion-row"><span>所在城市 <b>*</b></span><select name="city" required><option value="">请选择所在城市</option><option>深圳市</option><option>广州市</option><option>东莞市</option></select></label>
+        <label class="completion-row"><span>单位</span><input name="organization" placeholder="请输入单位名称"></label>
+        <label class="completion-row"><span>职务</span><input name="jobTitle" placeholder="请输入职务"></label>
+        <label class="completion-row"><span>所属行业 <b>*</b></span><select name="industry" required><option value="">请选择所属行业</option><option>人工智能</option><option>科技服务</option></select></label>
+        <label class="completion-row"><span>所在地区 <b>*</b></span><select name="region" required><option value="">请选择所在地区</option><option>粤港澳大湾区</option><option>其他地区</option></select></label>
+        <label class="completion-textarea"><span>个人简介</span><textarea name="biography" maxlength="200" placeholder="请简要介绍自己" data-count-target></textarea><small><i data-count>0</i>/200</small></label>
+        <label class="completion-textarea"><span>合作诉求</span><textarea name="cooperation" maxlength="200" placeholder="请输入您的合作诉求" data-count-target></textarea><small><i data-count>0</i>/200</small></label>
+      </section>
+      <button type="submit" class="primary-button">保存</button>
+    </form>`;
 }
 
 function renderForm(data) {
@@ -218,6 +296,7 @@ function renderTemplate(data) {
     'my-schedule': renderMySchedule,
     agenda: renderAgenda,
     sheet: renderSheet,
+    'speaker-form': renderSpeakerForm,
     modal: renderModal,
     result: renderResult,
     pass: renderPass,
@@ -231,6 +310,8 @@ function renderTemplate(data) {
     profile: renderProfile,
     notifications: renderNotifications,
     'profile-info': renderProfileInfo,
+    'role-selection': renderRoleSelection,
+    'profile-completion': renderProfileCompletion,
     form: renderForm,
     benefits: renderBenefits,
     voucher: renderVoucher,

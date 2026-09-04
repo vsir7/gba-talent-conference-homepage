@@ -7,7 +7,7 @@ import { PAGES } from '../scripts/page-registry.mjs';
 
 test('reference entries preserve original identity and separate normalized targets', () => {
   const entries = buildReferenceEntries({ probe: false });
-  assert.equal(entries.length, 32);
+  assert.equal(entries.length, PAGES.length);
   for (const [index, entry] of entries.entries()) {
     assert.equal(entry.pageId, PAGES[index].id);
     assert.equal(entry.sourceFile, PAGES[index].reference);

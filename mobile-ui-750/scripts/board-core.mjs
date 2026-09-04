@@ -7,3 +7,7 @@ export function resolvePageId(hash, pages) {
 export function pageHash(id) {
   return `#page=${encodeURIComponent(id)}`;
 }
+
+export function pagePreviewPath(file, version) {
+  return `pages/${file}?v=${encodeURIComponent(version)}`;
+}

@@ -10,10 +10,10 @@ import { generatePageHtml } from '../scripts/generate-pages.mjs';
 const here = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(here, '..');
 
-test('registry exposes 32 unique routes and references', () => {
-  assert.equal(PAGES.length, 32);
-  assert.equal(new Set(PAGES.map((page) => page.id)).size, 32);
-  assert.equal(new Set(PAGES.map((page) => page.file)).size, 32);
+test('registry exposes 35 unique routes and references', () => {
+  assert.equal(PAGES.length, 35);
+  assert.equal(new Set(PAGES.map((page) => page.id)).size, 35);
+  assert.equal(new Set(PAGES.map((page) => page.file)).size, 35);
   for (const page of PAGES) {
     assert.match(page.reference, /^0\d{2}-miniapp-.*\.png$/);
     assert.ok(page.name.length > 0);
@@ -38,4 +38,9 @@ test('all registry routes have generated HTML entries', () => {
     assert.ok(existsSync(file), `missing ${page.file}`);
     assert.match(readFileSync(file, 'utf8'), new RegExp(`data-page-id="${page.id}"`));
   }
+});
+
+test('personal information uses the latest user-supplied reference revision', () => {
+  const page = PAGES.find((item) => item.id === 'personal-info');
+  assert.equal(page?.reference, '028-miniapp-profile-detail-04-v2.png');
 });

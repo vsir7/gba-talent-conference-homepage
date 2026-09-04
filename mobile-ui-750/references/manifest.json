@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T07:19:33.651Z",
+  "generatedAt": "2026-09-03T07:41:21.064Z",
   "contract": {
     "cssWidth": 750,
     "deviceScaleFactor": 1,
@@ -149,6 +149,24 @@
         "width": 750,
         "height": 1598,
         "sha256": "1e06acfffe8a0c09c57f4a40f2c1f546ac9e6b33edbc73ca20aabd16512533e3"
+      }
+    },
+    {
+      "pageId": "speaker-registration",
+      "pageName": "分享者报名",
+      "sourceFile": "033-miniapp-speaker-registration.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/033-miniapp-speaker-registration.png",
+      "normalizedFile": "normalized-750/033-miniapp-speaker-registration.png",
+      "normalizedPath": "normalized-750/033-miniapp-speaker-registration.png",
+      "source": {
+        "width": 859,
+        "height": 1831,
+        "sha256": "6ef8b9b88ab011baf9d54439bf7e863b06fb91fd2fa0d270f0b1c886f55699ce"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1598,
+        "sha256": "93e5557526d382eb609d996f9fb884065fe91e04d210a6d185aab5f6a4ef51fa"
       }
     },
     {
@@ -494,21 +512,57 @@
       }
     },
     {
-      "pageId": "personal-info",
-      "pageName": "个人信息",
-      "sourceFile": "028-miniapp-profile-detail-04.png",
-      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/028-miniapp-profile-detail-04.png",
-      "normalizedFile": "normalized-750/028-miniapp-profile-detail-04.png",
-      "normalizedPath": "normalized-750/028-miniapp-profile-detail-04.png",
+      "pageId": "role-selection",
+      "pageName": "选择参会角色",
+      "sourceFile": "034-miniapp-role-selection.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/034-miniapp-role-selection.png",
+      "normalizedFile": "normalized-750/034-miniapp-role-selection.png",
+      "normalizedPath": "normalized-750/034-miniapp-role-selection.png",
       "source": {
         "width": 852,
         "height": 1846,
-        "sha256": "2018c5c55c639c97b7a30cd7f92ed938ed7400ce50e8ac2cb37b20c4b991a10f"
+        "sha256": "6a169dcaec7d970f61df072a8ecb6907275208f017508ba60e2c555d3cc6f8dd"
       },
       "normalized": {
         "width": 750,
         "height": 1625,
-        "sha256": "ecc452792a6f8c9f98fb64dd43a6e99b4ccaf86b20bdd3e50ae10a625c967a6b"
+        "sha256": "ea5b149e99eb16b49705bd4244863321d667bd09ae37eec26e247db041cbebff"
+      }
+    },
+    {
+      "pageId": "profile-completion",
+      "pageName": "完善个人信息",
+      "sourceFile": "035-miniapp-profile-completion.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/035-miniapp-profile-completion.png",
+      "normalizedFile": "normalized-750/035-miniapp-profile-completion.png",
+      "normalizedPath": "normalized-750/035-miniapp-profile-completion.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "03b157420108e7e4069bf7e0085c9746854681d76d65a99b6ca33e465346379d"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "b8dd838feaee080f994d788beab6e5cb9add99e98daecec5dc2da74d5a78c214"
+      }
+    },
+    {
+      "pageId": "personal-info",
+      "pageName": "个人信息",
+      "sourceFile": "028-miniapp-profile-detail-04-v2.png",
+      "sourcePath": "../../feishu-ui-images-latest-2026-09-01/028-miniapp-profile-detail-04-v2.png",
+      "normalizedFile": "normalized-750/028-miniapp-profile-detail-04-v2.png",
+      "normalizedPath": "normalized-750/028-miniapp-profile-detail-04-v2.png",
+      "source": {
+        "width": 852,
+        "height": 1846,
+        "sha256": "d8c1136fa0b533bbe97256ab691a4db94fc74394785065ae7da90a71407f1af4"
+      },
+      "normalized": {
+        "width": 750,
+        "height": 1625,
+        "sha256": "7c2d0f1d723f6c13c35738fe83a325eb61cb98dfe24b41786da88cced92451ce"
       }
     },
     {

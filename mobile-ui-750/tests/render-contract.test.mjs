@@ -84,7 +84,7 @@ test('service layouts expose the reference-specific modules', () => {
     'venue-guide': ['venue-search', 'venue-overview'],
     transportation: ['transport-destination', 'transport-shuttle', 'transport-notice'],
     'dining-service': ['dining-rights', 'dining-arrangement', 'dining-location', 'dining-tips'],
-    carnival: ['carnival-grid', 'carnival-cta'],
+    carnival: ['carnival-mast', 'carnival-banner', 'carnival-grid'],
     'food-street': ['food-grid', 'story-actions'],
     accommodation: ['hotel-list'],
     'youth-study': ['study-tabs', 'study-routes'],

@@ -1,5 +1,5 @@
-import { renderPageById } from './page-runtime.mjs';
-import { PAGE_BY_ID } from './page-registry.mjs';
+import { renderPageById } from './page-runtime.mjs?v=20260903-5';
+import { PAGE_BY_ID } from './page-registry.mjs?v=20260903-5';
 
 const root = document.querySelector('#app');
 const pageId = document.body.dataset.pageId;
@@ -68,6 +68,33 @@ root.addEventListener('click', (event) => {
       if (dot) dot.textContent = '✓';
       break;
     }
+    case 'select-role': {
+      root.querySelectorAll('[data-action="select-role"]').forEach((item) => {
+        const selected = item === control;
+        item.classList.toggle('selected', selected);
+        item.setAttribute('aria-checked', String(selected));
+      });
+      break;
+    }
+    case 'registration-submit': {
+      const selectedType = root.querySelector('[data-action="select-type"].selected');
+      goTo(selectedType?.dataset.registrationRoute || 'phone-authorization');
+      break;
+    }
+    case 'add-outline': {
+      const list = root.querySelector('[data-outline-list]');
+      const count = list?.querySelectorAll('.outline-row').length || 0;
+      if (!list || count >= 5) {
+        showStatus('最多添加5项分享要点');
+        break;
+      }
+      const row = document.createElement('div');
+      row.className = 'outline-row';
+      row.innerHTML = `<span>${count + 1}</span><input name="outline[]" aria-label="分享要点 ${count + 1}" placeholder="请输入第${count + 1}个分享要点">`;
+      list.append(row);
+      row.querySelector('input')?.focus();
+      break;
+    }
     case 'authorize-phone':
       goTo('registration-review');
       break;
@@ -114,4 +141,23 @@ root.addEventListener('submit', (event) => {
     return;
   }
   if (form.matches('.info-form')) showStatus('个人信息已保存');
+  if (form.matches('.speaker-form')) goTo('registration-review');
+  if (form.matches('.profile-completion-form')) goTo('personal-info');
+});
+
+root.addEventListener('input', (event) => {
+  if (event.target.matches('textarea[name="introduction"]')) {
+    const counter = root.querySelector('[data-intro-count]');
+    if (counter) counter.textContent = String(event.target.value.length);
+  }
+  if (event.target.matches('input[type="file"]')) {
+    const label = root.querySelector('[data-upload-label]');
+    if (label) label.textContent = event.target.files?.[0]?.name || '点击上传分享材料';
+    const profileLabel = root.querySelector('[data-profile-upload-label]');
+    if (profileLabel) profileLabel.textContent = event.target.files?.[0]?.name || '上传照片';
+  }
+  if (event.target.matches('[data-count-target]')) {
+    const counter = event.target.parentElement?.querySelector('[data-count]');
+    if (counter) counter.textContent = String(event.target.value.length);
+  }
 });
