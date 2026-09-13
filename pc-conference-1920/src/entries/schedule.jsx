@@ -1,0 +1,1 @@
+import React from "react";import{createRoot}from"react-dom/client";import{App}from"../pages/schedule/App.jsx";import"../pages/schedule/styles.css";import"../shared/ticket.css";createRoot(document.getElementById("root")).render(<App/>);

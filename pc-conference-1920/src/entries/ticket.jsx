@@ -1,0 +1,1 @@
+import React from "react";import{createRoot}from"react-dom/client";import{TicketModal}from"../shared/TicketModal.jsx";import"../shared/ticket.css";import"../shared/ticket-page.css";createRoot(document.getElementById("root")).render(<TicketModal open/>);

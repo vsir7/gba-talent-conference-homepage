@@ -1,0 +1,1 @@
+import React from "react";import{createRoot}from"react-dom/client";import{App}from"../pages/news-detail/App.jsx";import"../pages/news-detail/styles.css";import"../shared/ticket.css";createRoot(document.getElementById("root")).render(<App/>);
