@@ -22,12 +22,13 @@ const events = [
   },
   {
     tag: "主场会议",
-    title: "主题大讲堂",
+    title: "创新大讲堂：技术创新与产业未来",
     description: "权威学者与行业领军者发表主题演讲，分享前沿洞察与实践经验，引领创新思想，启迪未来发展。",
     image: "schedule-keynote.png",
     guests: [people.gao, { ...people.li, role: "创新创业导师" }, people.yu],
-    time: "10月25日 10:30—12:00",
-    venue: "大会主会场",
+    time: "10月25日 09:30—11:30",
+    venue: "广交会展馆 A 区 1.2 馆",
+    href: "./schedule-detail.html",
   },
   {
     tag: "专题论坛",
@@ -70,8 +71,7 @@ function Guest({ guest }) {
 }
 
 function AgendaCard({ item }) {
-  return (
-    <article className="agenda-card">
+  const content = <>
       <figure className="agenda-cover"><img src={`./assets/${item.image}`} alt={`${item.title}会场`} />{item.imageTitle && <figcaption>{item.imageTitle}</figcaption>}</figure>
       <section className="agenda-copy">
         <div className="agenda-main">
@@ -82,8 +82,8 @@ function AgendaCard({ item }) {
         </div>
         <div className="agenda-meta"><p><i className="clock" aria-hidden="true" />{item.time}</p><p><i className="pin" aria-hidden="true" />{item.venue}</p></div>
       </section>
-    </article>
-  );
+    </>;
+  return item.href ? <a className="agenda-card" href={item.href} aria-label={`查看${item.title}详情`}>{content}</a> : <article className="agenda-card">{content}</article>;
 }
 
 function App() {

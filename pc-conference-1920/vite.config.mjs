@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         conference: resolve(import.meta.dirname, "index.html"),
         schedule: resolve(import.meta.dirname, "schedule.html"),
+        scheduleDetail: resolve(import.meta.dirname, "schedule-detail.html"),
         news: resolve(import.meta.dirname, "news.html"),
         newsDetail: resolve(import.meta.dirname, "news-detail.html"),
         service: resolve(import.meta.dirname, "service.html"),

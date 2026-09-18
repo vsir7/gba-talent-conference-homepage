@@ -33,3 +33,15 @@
 - The ticket screenshot is represented both as a standalone page and as an interactive modal.
 
 final result: passed
+
+## Schedule detail extension — 2026-09-18
+
+- Reference image: `/var/folders/5y/51hfcy4s6kb2jcy8_dsrmjth0000gn/T/codex-clipboard-da556380-997f-484f-b2f3-d05e7fd5a8f6.png`
+- Implementation route: `/schedule-detail.html`
+- Browser QA viewport: 1920 × 1080 CSS pixels
+- Measured document: 1920 × 2880 CSS pixels; rendered page rectangle matches exactly.
+- Zero broken images and zero browser warnings/errors.
+- Verified route flow: schedule list → schedule detail → ticket modal.
+- Visual inspection covered the hero, date/venue panel, conference image, intro, guests, agenda, ticket notes, QR call-to-action, and complete footer.
+
+final result: passed

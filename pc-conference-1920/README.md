@@ -6,6 +6,7 @@
 
 - `/index.html`：大会首页
 - `/schedule.html`：大会日程
+- `/schedule-detail.html`：创新大讲堂日程详情
 - `/news.html`：资讯列表
 - `/news-detail.html`：资讯详情
 - `/service.html`：大会服务
